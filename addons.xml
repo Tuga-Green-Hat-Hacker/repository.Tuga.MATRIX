@@ -879,6 +879,24 @@ Added support for Kodi v19 (Matrix)
   </extension>
 </addon>
 
+<addon id="repository.Tuga.MATRIX" name="[B][COLORgreen]REPOSITORY [COLORyellow]Add-ons [COLORred]MATRIX[/B][/COLOR]" version="1.9.4+matrix" provider-name="Tuga">
+	<requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+
+    </requires>
+	<extension point="xbmc.addon.repository" name="[B][COLORgreen]REPOSITORY [COLORyellow]Add-ons [COLORred]MATRIX[/B][/COLOR]">
+		<info compressed="false">https://raw.githubusercontent.com/Tuga-Green-Hat-Hacker/repository.Tuga.MATRIX/main/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Tuga-Green-Hat-Hacker/repository.Tuga.MATRIX/main/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Tuga-Green-Hat-Hacker/repository.Tuga.MATRIX/main/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>[B][COLORgreen]REPOSITORY [COLORyellow]Add-ons [COLORred]MATRIX[/B][/COLOR]</summary>
+		<description>Download and install add-ons from [B][COLORgreen]REPOSITORY [COLORyellow]Add-ons [COLORred]MATRIX[/B][/COLOR], here you find add-ons for Kodi, tested! Now the rest is up to you...</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="script.appcast" name="AppCast" version="1.0.0" provider-name="CastagnaIT">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
