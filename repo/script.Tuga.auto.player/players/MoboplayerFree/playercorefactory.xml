@@ -1,0 +1,27 @@
+<playercorefactory>
+        <players>
+               
+
+                <player name="MoboplayerFree" type="ExternalPlayer" audio="false" video="true">
+                        <filename>com.clov4r.android.nilz</filename>
+                        <hidexbmc>true</hidexbmc>
+                        <playcountminimumtime>120</playcountminimumtime>
+                </player>
+
+                
+        </players>
+        <rules action="prepend">
+<!---
+**********                   **********
+********** EDIT THIS SECTION **********
+**********                   **********
+-->
+                <rule protocols="smb" player="MoboplayerFree" />
+                <rule dvdimage="true" player="MoboplayerFree"/>
+                <rule protocols="rtmp" player="MoboplayerFree"/>
+                <rule protocols="rtsp" player="MoboplayerFree" />
+                <rule protocols="sop" player="MoboplayerFree" />
+                <rule internetstream="true" player="MoboplayerFree" />
+                <rule video="true" player="MoboplayerFree"/> <!-- Default for anything else not listed -->
+        </rules>
+</playercorefactory>

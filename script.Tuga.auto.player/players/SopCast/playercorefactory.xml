@@ -1,0 +1,27 @@
+<playercorefactory>
+        <players>
+                
+
+                <player name="SopCast" type="ExternalPlayer" audio="false" video="true">
+                        <filename>org.sopcast.android</filename>
+                        <hidexbmc>true</hidexbmc>
+                        <playcountminimumtime>120</playcountminimumtime>
+                </player>
+
+                
+        </players>
+        <rules action="prepend">
+<!---
+**********                   **********
+********** EDIT THIS SECTION **********
+**********                   **********
+-->
+                <rule protocols="smb" player="SopCast" />
+                <rule dvdimage="true" player="SopCast"/>
+                <rule protocols="rtmp" player="SopCast"/>
+                <rule protocols="rtsp" player="SopCast" />
+                <rule protocols="sop" player="SopCast" />
+                <rule internetstream="true" player="SopCast" />
+                <rule video="true" player="SopCast"/> <!-- Default for anything else not listed -->
+        </rules>
+</playercorefactory>

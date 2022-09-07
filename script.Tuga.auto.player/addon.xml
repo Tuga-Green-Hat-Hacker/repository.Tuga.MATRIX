@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.Tuga.auto.player" name="[COLORgreen]MODIFY [COLORyellow]AUTO [COLORred]PLAYERS[/COLOR]" version="1.9.4+matrix" provider-name="Tuga">
+    <requires>
+        <import addon="script.module.six"/>
+        <import addon="script.module.kodi-six"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLORgreen]MODIFY [COLORyellow]AUTO [COLORred]PLAYER[/COLOR] add-on, to modify kodi player ['DEFAULT PLAYER', 'ArchosVideo', 'BSPlayerFree', 'DaroonPlayer', 'DicePlayerFree', 'DicePlayerPaid', 'JustPlayer', 'MoboplayerFree', 'mVideoplayerFree', 'MXPayerFree', 'MXPlayerPro', 'PotPlayer(windows)', 'RockPlayer', 'RockPlayerLite', 'SopCast', 'TPlayer', 'VLC(windows 64)', 'VLC(windows x86)', 'VLCPayer', 'Vplater', 'WondersharePlayer', 'VLC(Linux)', 'Celluloid(Linux)']</summary>
+        <summary lang="pt">[COLORgreen]MODIFY [COLORyellow]AUTO [COLORred]PLAYER[/COLOR] add-on, para modificar player do kodi ['DEFAULT PLAYER', 'ArchosVideo', 'BSPlayerFree', 'DaroonPlayer', 'DicePlayerFree', 'DicePlayerPaid', 'JustPlayer', 'MoboplayerFree', 'mVideoplayerFree', 'MXPayerFree', 'MXPlayerPro', 'PotPlayer(windows)', 'RockPlayer', 'RockPlayerLite', 'SopCast', 'TPlayer', 'VLC(windows 64)', 'VLC(windows x86)', 'VLCPayer', 'Vplater', 'WondersharePlayer', 'VLC(Linux)', 'Celluloid(Linux)']</summary>
+        <description lang="en">[COLORgreen]MODIFY [COLORyellow]AUTO [COLORred]PLAYER[/COLOR]</description>
+        <description lang="pt">[COLORgreen]MODIFY [COLORyellow]AUTO [COLORred]PLAYER[/COLOR]</description>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 1, 12 June 2022</license>
+        <disclaimer>The author of this add-on do not host any of the content which is found and have no affiliation with any of the content providers. This add-on simply searches websites for content. Use at your own risk!</disclaimer>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

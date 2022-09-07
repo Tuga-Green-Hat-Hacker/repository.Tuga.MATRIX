@@ -1,0 +1,27 @@
+<playercorefactory>
+        <players>
+              
+
+                <player name="MXPlayerPro" type="ExternalPlayer" audio="false" video="true">
+                        <filename>com.mxtech.videoplayer.pro</filename>
+                        <hidexbmc>true</hidexbmc>
+                        <playcountminimumtime>120</playcountminimumtime>
+                </player>
+
+               
+        </players>
+        <rules action="prepend">
+<!---
+**********                   **********
+********** EDIT THIS SECTION **********
+**********                   **********
+-->
+                <rule protocols="smb" player="MXPlayerPro" />
+                <rule dvdimage="true" player="MXPlayerPro"/>
+                <rule protocols="rtmp" player="MXPlayerPro"/>
+                <rule protocols="rtsp" player="MXPlayerPro" />
+                <rule protocols="sop" player="MXPlayerPro" />
+                <rule internetstream="true" player="MXPlayerPro" />
+                <rule video="true" player="MXPlayerPro"/> <!-- Default for anything else not listed -->
+        </rules>
+</playercorefactory>

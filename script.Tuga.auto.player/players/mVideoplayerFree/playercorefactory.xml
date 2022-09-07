@@ -1,0 +1,27 @@
+<playercorefactory>
+        <players>
+               
+
+                <player name="mVideoplayerFree" type="ExternalPlayer" audio="false" video="true">
+                        <filename>afzkl.development.mVideoPlayer</filename>
+                        <hidexbmc>true</hidexbmc>
+                        <playcountminimumtime>120</playcountminimumtime>
+                </player>               
+
+               
+        </players>
+        <rules action="prepend">
+<!---
+**********                   **********
+********** EDIT THIS SECTION **********
+**********                   **********
+-->
+                <rule protocols="smb" player="mVideoplayerFree" />
+                <rule dvdimage="true" player="mVideoplayerFree"/>
+                <rule protocols="rtmp" player="mVideoplayerFree"/>
+                <rule protocols="rtsp" player="mVideoplayerFree" />
+                <rule protocols="sop" player="mVideoplayerFree" />
+                <rule internetstream="true" player="mVideoplayerFree" />
+                <rule video="true" player="mVideoplayerFree"/> <!-- Default for anything else not listed -->
+        </rules>
+</playercorefactory>

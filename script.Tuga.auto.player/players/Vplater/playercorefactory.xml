@@ -1,0 +1,27 @@
+<playercorefactory>
+        <players>
+                           
+
+                <player name="Vplayer" type="ExternalPlayer" audio="false" video="true">
+                        <filename>me.abitno.vplayer.t</filename>
+                        <hidexbmc>true</hidexbmc>
+                        <playcountminimumtime>120</playcountminimumtime>
+                </player>
+
+               
+        </players>
+        <rules action="prepend">
+<!---
+**********                   **********
+********** EDIT THIS SECTION **********
+**********                   **********
+-->
+                <rule protocols="smb" player="Vplayer" />
+                <rule dvdimage="true" player="Vplayer"/>
+                <rule protocols="rtmp" player="Vplayer"/>
+                <rule protocols="rtsp" player="Vplayer" />
+                <rule protocols="sop" player="Vplayer" />
+                <rule internetstream="true" player="Vplayer" />
+                <rule video="true" player="Vplayer"/> <!-- Default for anything else not listed -->
+        </rules>
+</playercorefactory>

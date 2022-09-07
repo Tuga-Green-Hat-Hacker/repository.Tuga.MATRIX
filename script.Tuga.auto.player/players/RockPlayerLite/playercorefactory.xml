@@ -1,0 +1,27 @@
+<playercorefactory>
+        <players>
+               
+
+                <player name="RockPlayerLite" type="ExternalPlayer" audio="false" video="true">
+                        <filename>com.redirectin.rockplayer.android.unified.lite</filename>
+                        <hidexbmc>true</hidexbmc>
+                        <playcountminimumtime>120</playcountminimumtime>
+                </player>
+
+               
+        </players>
+        <rules action="prepend">
+<!---
+**********                   **********
+********** EDIT THIS SECTION **********
+**********                   **********
+-->
+                <rule protocols="smb" player="RockPlayerLite" />
+                <rule dvdimage="true" player="RockPlayerLite"/>
+                <rule protocols="rtmp" player="RockPlayerLite"/>
+                <rule protocols="rtsp" player="RockPlayerLite" />
+                <rule protocols="sop" player="RockPlayerLite" />
+                <rule internetstream="true" player="RockPlayerLite" />
+                <rule video="true" player="RockPlayerLite"/> <!-- Default for anything else not listed -->
+        </rules>
+</playercorefactory>

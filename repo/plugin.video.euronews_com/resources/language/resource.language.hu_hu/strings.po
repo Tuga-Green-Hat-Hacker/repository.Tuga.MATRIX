@@ -1,0 +1,174 @@
+﻿# Kodi Media Center language file
+# Addon Name: euronews.com
+# Addon id: plugin.video.euronews_com
+# Addon Provider: L0RE, realvito
+msgid ""
+msgstr ""
+"Project-Id-Version: KODI-Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@kodi.org\n"
+"POT-Creation-Date: 2020-06-06 11:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: realvito\n"
+"Language-Team: HUNGARIAN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# strings start
+# SETTINGS-CATEGORIES
+
+msgctxt "#30000"
+msgid "General"
+msgstr "Tábornok"
+
+msgctxt "#30001"
+msgid "Advanced"
+msgstr "Fejlett"
+
+# empty strings from id 30002 to 30109
+# SETTINGS-BUTTONS
+
+msgctxt "#30110"
+msgid "     Euronews - Language"
+msgstr "     Euronews - Nyelv"
+
+msgctxt "#30111"
+msgid "English"
+msgstr "Angol"
+
+msgctxt "#30112"
+msgid "Greek"
+msgstr "Görög"
+
+msgctxt "#30113"
+msgid "French"
+msgstr "Francia"
+
+msgctxt "#30114"
+msgid "German"
+msgstr "Német"
+
+msgctxt "#30115"
+msgid "Italian"
+msgstr "Olasz"
+
+msgctxt "#30116"
+msgid "Spanish"
+msgstr "Spanyol"
+
+msgctxt "#30117"
+msgid "Portuguese"
+msgstr "Portugál"
+
+msgctxt "#30118"
+msgid "Hungarian"
+msgstr "Magyar"
+
+msgctxt "#30119"
+msgid "Russian"
+msgstr "Orosz"
+
+msgctxt "#30120"
+msgid "[COLOR orangered]Ukrainian (switched off)[/COLOR]"
+msgstr "[COLOR orangered]Ukrán (kikapcsolva)[/COLOR]"
+
+msgctxt "#30121"
+msgid "Turkish"
+msgstr "Török"
+
+msgctxt "#30122"
+msgid "Arabic"
+msgstr "Arab"
+
+msgctxt "#30123"
+msgid "Persian"
+msgstr "Perzsa"
+
+msgctxt "#30124"
+msgid "     Videos preferably play via [COLOR yellow]*YOUTUBE-Link*[/COLOR]"
+msgstr "     A videókat lehetőleg [COLOR yellow]*YOUTUBE-Link*[/COLOR] csatornán játssza le"
+
+msgctxt "#30125"
+msgid "     Use Thumb as Background-Fanart"
+msgstr "     Használja a hüvelykujjat háttérképként"
+
+msgctxt "#30126"
+msgid "     Show Addon-Settings in the overview"
+msgstr "     Mutassa az Addon-beállításokat az áttekintésben"
+
+msgctxt "#30127"
+msgid "     Detailed Addon-Debug (otherwise only Minimal-Log)"
+msgstr "     Részletes kiegészítő hibakeresés (egyébként csak a minimális napló)"
+
+# empty strings from id 30128 to 30229
+# SETTINGS-TITLES
+
+msgctxt "#30230"
+msgid "[B][COLOR ff0099ff]LANGUAGE[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]NYELV[/COLOR][/B]"
+
+msgctxt "#30231"
+msgid "[B][COLOR ff0099ff]PLAY[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]JÁTÉK[/COLOR][/B]"
+
+msgctxt "#30232"
+msgid "[B][COLOR ff0099ff]FANART[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]RAJONGÓI ALKOTÁS[/COLOR][/B]"
+
+msgctxt "#30233"
+msgid "[B][COLOR ff0099ff]SETTINGS[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]BEÁLLÍTÁSOK[/COLOR][/B]"
+
+msgctxt "#30234"
+msgid "[B][COLOR ff0099ff]LOG[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]NAPLÓ[/COLOR][/B]"
+
+# empty strings from id 30235 to 30349
+# SETTINGS-DESCRIPTIONS
+
+msgctxt "#30350"
+msgid "     * [COLOR chartreuse]If activated: playing Youtube-Link, if Link available (higher quality) - otherwise standard ![/COLOR] *"
+msgstr "     * [COLOR chartreuse]Ha aktiválva van: a Youtube-Link lejátszása, ha a Link elérhető (jobb minőségű) - egyébként standard ![/COLOR] *"
+
+# empty strings from id 30351 to 30500
+# WARNING/INFORMATION-MESSAGES-OK
+
+# empty strings from id 30501 to 30520
+# WARNING/INFORMATION-MESSAGES-NOTIFICATION
+
+msgctxt "#30521"
+msgid "euronews.com : [COLOR red]!!! {0:s} - ERROR !!![/COLOR]"
+msgstr "euronews.com : [COLOR red]!!! {0:s} - HIBA !!![/COLOR]"
+
+msgctxt "#30522"
+msgid "[COLOR red]Unfortunately, there are NO {0:s} :[/COLOR]"
+msgstr "[COLOR red]Sajnos NINCS nincs {0:s} :[/COLOR]"
+
+msgctxt "#30523"
+msgid "[COLOR red]An error has occured, please check *LOG* ![/COLOR]"
+msgstr "[COLOR red]Hiba történt, kérjük, ellenőrizze *NAPLÓ* ![/COLOR]"
+
+msgctxt "#30524"
+msgid "* [COLOR blue]In the Category: {0:s}[/COLOR] * at euronews.com"
+msgstr "* [COLOR blue]A kategóriában: {0:s}[/COLOR] * az euronews.com webhelyen"
+
+msgctxt "#30525"
+msgid "ERROR = [COLOR red]Unfortunately no Live-Stream found ![/COLOR]"
+msgstr "ERROR = [COLOR red]Sajnos nem található Live-Stream ![/COLOR]"
+
+# empty strings from id 30526 to 30600
+# PLUGIN-MAIN and SIDEMENU
+
+msgctxt "#30608"
+msgid "[COLOR lime]* LIVESTREAM *[/COLOR]"
+msgstr "[COLOR lime]* ÉLŐ ADÁS *[/COLOR]"
+
+msgctxt "#30609"
+msgid "euronews Settings"
+msgstr "euronews Beállítások"
+
+msgctxt "#30610"
+msgid "[COLOR lime]* EURONEWS LIVE-TV *[/COLOR]"
+msgstr "[COLOR lime]* Az EURONEWS LIVE-TV *[/COLOR]"

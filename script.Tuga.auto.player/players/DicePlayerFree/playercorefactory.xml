@@ -1,0 +1,27 @@
+<playercorefactory>
+        <players>
+                
+
+                <player name="DicePlayerFree" type="ExternalPlayer" audio="false" video="true">
+                        <filename>com.inisoft.mediaplayer.trial</filename>
+                        <hidexbmc>true</hidexbmc>
+                        <playcountminimumtime>120</playcountminimumtime>
+                </player>
+
+                
+        </players>
+        <rules action="prepend">
+<!---
+**********                   **********
+********** EDIT THIS SECTION **********
+**********                   **********
+-->
+                <rule protocols="smb" player="DicePlayerFree" />
+                <rule dvdimage="true" player="DicePlayerFree"/>
+                <rule protocols="rtmp" player="DicePlayerFree"/>
+                <rule protocols="rtsp" player="DicePlayerFree" />
+                <rule protocols="sop" player="DicePlayerFree" />
+                <rule internetstream="true" player="DicePlayerFree" />
+                <rule video="true" player="DicePlayerFree"/> <!-- Default for anything else not listed -->
+        </rules>
+</playercorefactory>

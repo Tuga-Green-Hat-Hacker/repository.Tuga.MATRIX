@@ -1,0 +1,654 @@
+# Addon Name: Reddit Navigator
+# Addon id: plugin.video.reddit_navigator
+# Addon Provider: Twilight0
+
+msgid ""
+msgstr ""
+
+msgctxt "#30001"
+msgid "Search for media"
+msgstr "Αναζήτηση για πολυμέσα"
+
+msgctxt "#30002"
+msgid "Saved subreddits"
+msgstr "Αποθηκευμένα subreddits"
+
+msgctxt "#30003"
+msgid "Quick search"
+msgstr "Γρήγορη αναζήτηση"
+
+msgctxt "#30004"
+msgid "Read Me"
+msgstr "Διάβασε με"
+
+msgctxt "#30005"
+msgid "Advanced search"
+msgstr "Προχωρημένη αναζήτηση"
+
+msgctxt "#30006"
+msgid "Options"
+msgstr "Επιλογές"
+
+msgctxt "#30007"
+msgid "Dialog"
+msgstr "Διάλογος"
+
+msgctxt "#30008"
+msgid "Directory"
+msgstr "Κατάλογος"
+
+msgctxt "#30009"
+msgid "Window action (applicable only to certain sections)"
+msgstr "Ενέργεια παραθύρου (εφαρμόσιμο μόνο σε ορισμένα πεδία)"
+
+msgctxt "#30010"
+msgid "Search history"
+msgstr "Ιστορικό αναζήτησης"
+
+msgctxt "#30011"
+msgid "Search history size"
+msgstr "Μέγεθος ιστορικού αναζήτησης"
+
+msgctxt "#30012"
+msgid "Search for subreddits"
+msgstr "Αναζήτηση για subreddits"
+
+msgctxt "#30013"
+msgid "Cache expiration in hours"
+msgstr "Λήξη προσωρινής μνήμης σε ώρες"
+
+msgctxt "#30014"
+msgid "Include NSFW results (N/A if not logged in)"
+msgstr "Συμπερίληψη αποτελεσμάτων NSFW/ΜΑΓΕ (Μ/Δ χωρίς έγκριση/είσοδο)"
+
+msgctxt "#30015"
+msgid "(De)activate debugging"
+msgstr "(Απ)ενεργοποίηση αποσφαλμάτωσης"
+
+msgctxt "#30016"
+msgid "Do you want to enable addon specific debugging as well?"
+msgstr "Θέλετε να ενεργοποιήσετε και την λειτουργία αποσφαλμάτωσης του Reddit Navigator;"
+
+msgctxt "#30017"
+msgid "IP Address of this machine"
+msgstr "Διεύθυνση IP αυτής της συσκευής"
+
+msgctxt "#30018"
+msgid "Choose one or more"
+msgstr "Επιλέξτε ένα ή περισσότερα"
+
+msgctxt "#30019"
+msgid "Narrow by a subreddit"
+msgstr "Αναζήτηση σε συγκεκριμένο subreddit"
+
+msgctxt "#30020"
+msgid "Find posts by a user (author)"
+msgstr "Αναζήτηση σε δημοσιεύσεις κάποιου χρήστη (author)"
+
+msgctxt "#30021"
+msgid "Add a site to the query"
+msgstr "Προσθήκη ιστότοπου στην αναζήτηση"
+
+msgctxt "#30022"
+msgid "Find a text in the url"
+msgstr "Προσθήκη κειμένου στο url αναζήτησης"
+
+msgctxt "#30023"
+msgid "Add to bookmarks"
+msgstr "Προσθήκη στους σελιδοδείκτες"
+
+msgctxt "#30024"
+msgid "Remove from bookmarks"
+msgstr "Αφαίρεση από τους σελιδοδείκτες"
+
+msgctxt "#30025"
+msgid "Bookmarks list empty"
+msgstr "Λίστα σελιδοδεικτών κενή"
+
+msgctxt "#30026"
+msgid "No saved subreddits were found"
+msgstr "Δεν βρέθηκαν αποθηκευμένα subreddits"
+
+msgctxt "#30027"
+msgid "Bookmarks"
+msgstr "Σελιδοδείκτες"
+
+msgctxt "#30028"
+msgid "Tools"
+msgstr "Εργαλεία"
+
+msgctxt "#30029"
+msgid "Mode:"
+msgstr "Φιλτρο:"
+
+msgctxt "#30030"
+msgid "Video"
+msgstr "Βίντεο"
+
+msgctxt "#30031"
+msgid "Audio"
+msgstr "Ήχος"
+
+msgctxt "#30032"
+msgid "Image"
+msgstr "Εικόνα"
+
+msgctxt "#30033"
+msgid "Activate video mode"
+msgstr "Ενεργοποίηση λειτουργίας βίντεο"
+
+msgctxt "#30034"
+msgid "Activate audio mode"
+msgstr "Ενεργοποίηση λειτουργίας ήχου"
+
+msgctxt "#30035"
+msgid "Activate pictures mode"
+msgstr "Ενεργοποίηση λειτουργίας εικόνων"
+
+msgctxt "#30036"
+msgid "Executable"
+msgstr "Πρόγραμμα"
+
+msgctxt "#30037"
+msgid "Show & Keep history"
+msgstr "Δείξε & Κράτα ιστορικό"
+
+msgctxt "#30038"
+msgid "Save subreddit"
+msgstr "Αποθήκευση subreddit"
+
+msgctxt "#30039"
+msgid "Delete subreddit"
+msgstr "Διαγραφή subreddit"
+
+msgctxt "#30040"
+msgid "Delete history"
+msgstr "Διαγραφή ιστορικού"
+
+msgctxt "#30041"
+msgid "Actions"
+msgstr "Ενέργειες"
+
+msgctxt "#30042"
+msgid "Clear function cache"
+msgstr "Διαγραφή προσωρινής μνήμης λειτουργιών"
+
+msgctxt "#30043"
+msgid "Next >"
+msgstr "Επόμενο >"
+
+msgctxt "#30044"
+msgid "Go to subreddit"
+msgstr "Πήγαινε στο subreddit"
+
+msgctxt "#30045"
+msgid "Purge bookmarks"
+msgstr "Εκκαθάριση σελιδοδεικτών"
+
+msgctxt "#30046"
+msgid "Authorize Reddit Navigator"
+msgstr "Έγκριση Reddit Navigator"
+
+msgctxt "#30047"
+msgid "Port to listen on"
+msgstr "Θύρα ακρόασης"
+
+msgctxt "#30048"
+msgid "Credentials"
+msgstr "Διαπιστευτήρια"
+
+msgctxt "#30049"
+msgid "Number of items to display"
+msgstr "Αριθμός αντικειμένων προς απεικόνιση"
+
+msgctxt "#30050"
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+msgctxt "#30051"
+msgid "Install Plexus"
+msgstr "Εγκατάσταση του Plexus"
+
+msgctxt "#30052"
+msgid "Do not allow search in text submissions"
+msgstr "Αποτροπή αναζήτησης σε καταχωρήσεις περιεχομένου"
+
+msgctxt "#30053"
+msgid "Text search in self submissions"
+msgstr "Κείμενο αναζήτησης στις καταχωρήσεις σχολίων"
+
+msgctxt "#30054"
+msgid "Add supported media domains (invisible)"
+msgstr "Προσθήκη υποστηριζόμενων διευθύνσεων (μη ορατό)"
+
+msgctxt "#30055"
+msgid "Subscribe to this subreddit"
+msgstr "Εγγραφή σε αυτό το subreddit"
+
+msgctxt "#30056"
+msgid "Set the ip address to listen on"
+msgstr "Εφαρμογή διεύθυνσης ip για ακρόαση"
+
+msgctxt "#30057"
+msgid "Authorize Reddit Navigator"
+msgstr "Έγκριση Reddit Navigator"
+
+msgctxt "#30058"
+msgid "Revoke authorization"
+msgstr "Ανάκληση έγκρισης"
+
+msgctxt "#30059"
+msgid "Cancelled"
+msgstr "Ακύρωση"
+
+msgctxt "#30060"
+msgid "Use 127.0.0.1 if you 're authorizing locally this device, otherwise use the other ip address if remotely"
+msgstr "Χρησιμοποίησε την 127.0..0.1 εάν εγκρίνετε την συσκευή τοπικά, διαφορετικά χρησιμοποιήστε την άλλη διεύθυνση για απομακρυσμένη"
+
+msgctxt "#30061"
+msgid "Make a choice"
+msgstr "Πραγματοποιήστε μία επιλογή"
+
+msgctxt "#30062"
+msgid "Close"
+msgstr "Κλείσιμο"
+
+msgctxt "#30063"
+msgid "Activate http server and open link immediately"
+msgstr "Ενεργοποίησε τον http server και άνοιξε τον σύνδεσμο άμεσα"
+
+msgctxt "#30064"
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+msgctxt "#30065"
+msgid "You can now return to Kodi"
+msgstr "Μπορείτε να επιστρέψτε στο Kodi τώρα"
+
+msgctxt "#30066"
+msgid "Folders"
+msgstr "Φάκελοι"
+
+msgctxt "#30067"
+msgid "Authorization failed or denied by user"
+msgstr "Η έκριση απέτυχε ή ακυρώθηκε από τον χρήστη"
+
+msgctxt "#30068"
+msgid "Please try again"
+msgstr "Παρακαλώ προσπαθήστε ξανά"
+
+msgctxt "#30069"
+msgid "Authorization token obtained: {0}"
+msgstr "Αναγνωριστικό έγκρισης ελήφθη: {0}"
+
+msgctxt "#30070"
+msgid "version: {0}"
+msgstr "έκδοση: {0}"
+
+msgctxt "#30071"
+msgid "Show images in fullscreen"
+msgstr "Δείξε τις εικόνες σε πλήρη οθόνη"
+
+msgctxt "#30072"
+msgid "Choose one or more subreddits"
+msgstr "Διαλέξτε ένα ή περισσότερα subreddits"
+
+msgctxt "#30073"
+msgid "Authorization token"
+msgstr "Αναγνωριστικό έγκρισης"
+
+msgctxt "#30074"
+msgid "Revoke tokens"
+msgstr "Ανάκληση αναγνωριστικών"
+
+msgctxt "#30075"
+msgid "Refresh token"
+msgstr "Αναγνωριστικό ανανέωσης"
+
+msgctxt "#30076"
+msgid "Access token"
+msgstr "Αναγνωριστικό πρόσβασης"
+
+msgctxt "#30077"
+msgid "Access scope"
+msgstr "Πεδία πρόσβασης"
+
+msgctxt "#30078"
+msgid "Access expiration"
+msgstr "Λήξη πρόσβασης"
+
+msgctxt "#30079"
+msgid "Are you sure you want to revoke stored tokens?"
+msgstr "Είστε σίγουροι ότι επιθυμείτε την ανάκληση των αποθηκευμένων αναγνωριστικών;"
+
+msgctxt "#30080"
+msgid ""
+msgstr ""
+
+msgctxt "#30081"
+msgid "Enter tokens manually"
+msgstr "Εισαγωγή αναγνωριστικών χειροκίνητα"
+
+msgctxt "#30082"
+msgid "Please enter the authorization token:"
+msgstr "Παρακαλώ εισάγετε το αναγνωριστικό έγκρισης:"
+
+msgctxt "#30083"
+msgid "Authorization token is blank, aborting"
+msgstr "Το αναγνωριστικό έγκρισης είναι κενό, εγκατάλειψη"
+
+msgctxt "#30084"
+msgid "Manual retrieval of tokens"
+msgstr "Χειροκίνητη λήψη των αναγνωριστικών"
+
+msgctxt "#30085"
+msgid "Display compact authorization page"
+msgstr "Δείξε την συνοπτική σελίδα έγκρισης"
+
+msgctxt "#30086"
+msgid "Renew access token now"
+msgstr "Ανανέωση αναγνωριστικού πρόσβασης τώρα"
+
+msgctxt "#30087"
+msgid "Auto refresh of access token"
+msgstr "Αυτόματη ανανέωση του αναγνωριστικού πρόσβασης"
+
+msgctxt "#30088"
+msgid "Unsubscribe from this subreddit"
+msgstr "Διαγραφή από αυτό το subreddit"
+
+msgctxt "#30089"
+msgid "Sync local to remote"
+msgstr "Συγχρόνισε τα τοπικά με τα απομακρυσμένα"
+
+msgctxt "#30090"
+msgid "My account on Reddit"
+msgstr "Ο λογαρiασμός μου στο Reddit"
+
+msgctxt "#30091"
+msgid "Saved items"
+msgstr "Αποθηκευμένα αντικείμενα"
+
+msgctxt "#30092"
+msgid "My subreddits"
+msgstr "Τα subreddits μου"
+
+msgctxt "#30093"
+msgid "My multi"
+msgstr "Τα multi μου"
+
+msgctxt "#30094"
+msgid "Show search media"
+msgstr "Δείξε την αναζήτηση πολυμέσων"
+
+msgctxt "#30095"
+msgid "Show search subreddits"
+msgstr "Δείξε την αναζήτηση subreddits"
+
+msgctxt "#30096"
+msgid "Show saved subreddits"
+msgstr "Δείξε τα αποθηκευμένα subreddits"
+
+msgctxt "#30097"
+msgid "Show bookmarks"
+msgstr "Δείξε τους σελιδοδείκτες"
+
+msgctxt "#30098"
+msgid "Show my account"
+msgstr "Δείξε τον λογαριασμό μου"
+
+msgctxt "#30099"
+msgid "Show tools"
+msgstr "Δείξε τα εργαλεία"
+
+msgctxt "#30100"
+msgid "Open thread"
+msgstr "Άνοιγμα νήματος"
+
+msgctxt "#30101"
+msgid "Multiselection of listed subreddits"
+msgstr "Πολλαπλή επιλογή διαθέσιμων subreddits"
+
+msgctxt "#30102"
+msgid "Replies: "
+msgstr "Απαντήσεις: "
+
+msgctxt "#30103"
+msgid "Comments: "
+msgstr "Σχόλια: "
+
+msgctxt "#30104"
+msgid "Go to root menu"
+msgstr "Πήγαινε στο ριζικό μενού"
+
+msgctxt "#30105"
+msgid "Save this item"
+msgstr "Αποθήκευση αντικειμένου"
+
+msgctxt "#30106"
+msgid "Unsave this item"
+msgstr "Διαγραφή αντικειμένου"
+
+msgctxt "#30107"
+msgid "Refresh"
+msgstr "Ανανέωση"
+
+msgctxt "#30108"
+msgid "Label formatting"
+msgstr "Μορφοποίηση επιγραφής"
+
+msgctxt "#30109"
+msgid "Long single line"
+msgstr "Μία μακριά γραμμή"
+
+msgctxt "#30110"
+msgid "Two lines"
+msgstr "Δύο γραμμές"
+
+msgctxt "#30111"
+msgid "Warning: Some skins do not support two lines"
+msgstr "Προειδοποίηση: Μερικά κελήφη δεν υποστηρίζουν δύο γραμμές"
+
+msgctxt "#30112"
+msgid "Enable first time prompt"
+msgstr "Επέτρεψε το μήνυμα πρώτης εκκίνησης"
+
+msgctxt "#30113"
+msgid "Read subreddit's description"
+msgstr "Ανάγνωση περιγραφής subreddit"
+
+msgctxt "#30114"
+msgid "Wrong username and/or password"
+msgstr "Λανθασμένο όνομα χρήστη ή/και κωδικός"
+
+msgctxt "#30115"
+msgid "Quit"
+msgstr "Έξοδος"
+
+msgctxt "#30116"
+msgid ""
+msgstr ""
+
+msgctxt "#30117"
+msgid "More..."
+msgstr "Περισσότερα..."
+
+msgctxt "#30118"
+msgid "Scrape comment for urls"
+msgstr "Φιλτράρισμα σχολίου για συνδέσμους"
+
+msgctxt "#30119"
+msgid "Add a flair"
+msgstr "Πρόσθεσε ετικέτα"
+
+msgctxt "#30120"
+msgid "Hot"
+msgstr "Δημοφιλή"
+
+msgctxt "#30121"
+msgid "New"
+msgstr "Νέα"
+
+msgctxt "#30122"
+msgid "Show hot"
+msgstr "Δείξε τα δημοφιλή"
+
+msgctxt "#30123"
+msgid "Show new"
+msgstr "Δείξε τα νέα"
+
+msgctxt "#30124"
+msgid "Show mode changer"
+msgstr "Δείξε τον εναλλάκτη λειτουργιών"
+
+msgctxt "#30125"
+msgid "Stream has not been resolved!"
+msgstr "Η ροή είναι μη επιλύσιμη"
+
+msgctxt "#30126"
+msgid "Attempt to play on kodi"
+msgstr "Προσπάθεια αναπαραγωγής στο kodi"
+
+msgctxt "#30127"
+msgid "Open external web browser window"
+msgstr "Άνοιγμα παραθύρου φυλλομετρητή εκτός"
+
+msgctxt "#30128"
+msgid "Replace icon in my account menu with user's one"
+msgstr "Αντικατάσταση εικονιδίου στο μενού λογαριασμού με αυτό του χρήστη"
+
+msgctxt "#30129"
+msgid "Custom windows are displayed with estuary's look"
+msgstr "Τα τροποποιημένα παράθυρα εμφανίζονται με κέλυφος estuary"
+
+msgctxt "#30130"
+msgid "No links were found"
+msgstr "Δεν βρέθηκαν σύνδεσμοι"
+
+msgctxt "#30131"
+msgid "Welcome to the new [B]Reddit Navigator[/B], a powerful [B]scraper addon[/B] for Kodi.[CR][CR]"
+msgstr "Καλώς ήρθατε στο νέο [B]Reddit Navigator[/B], ένα ισχυρό [B]πρόσθετο φιλτραρίσματος[/Β] για το Kodi.[CR][CR]"
+
+msgctxt "#30132"
+msgid "Scrape [B]video[/B], [B]live streams[/B], [B]audio[/B], [B]images[/B] and [B]discussions[/B] posted by members of the Reddit platform. Use the [B]powerful search functionality[/B] to discover a world of content.[CR][CR]"
+msgstr "Φιλτράρετε [B]βίντεο[/B], [B]ζωντανές ροές[/B], [B]ήχητικά κλιπ[/B], [B]εικόνες[/B] και [B]συζητήσεις[/B] αναρτημένα από τα μέλη της πλατφόρμας του Reddit. Χρησιμοποιείστε την [B]ισχυρή δυνατότητα αναζήτησης[/B] και ανακαλύψτε έναν κόσμο περιεχομένου[CR][CR]"
+
+msgctxt "#30133"
+msgid "[B]Niche communities known as subreddits[/B] are independently created and moderated.[CR][CR]"
+msgstr "[B]Εξειδικευμένες κοινότητες γνωστές ως subreddit[/B] είναι ανεξάρτητα δημιουργημένες και διαχειριζούμενες.[CR][CR]"
+
+msgctxt "#30134"
+msgid "Subreddits exist for [B]any and every topic[/B] you can possibly [B]imagine[/B].[CR][CR]"
+msgstr "Τα subreddit υπάρχουν [B]για κάθε είδους θέματος[/B] που μπορείτε να [B]φανταστείτε[/B].[CR][CR]"
+
+msgctxt "#30135"
+msgid "The use of the Kodi media center's [B]context menu is critical[/B] to achieving the [B]maximal benefits[/B] of Reddit Navigator.[CR][CR]"
+msgstr "Η χρήση του [B]εναλλακτικού μενού[/B] του συστήματος πολυμέσων Kodi είναι σημαντική, ώστε να επωφεληθείτε [B]όλων των δυνατοτήτων[/B] του Reddit Navigator.[CR][CR]"
+
+msgctxt "#30136"
+msgid "Depending on your platform, the [B]context menu[/B] is launched via [B]different methods[/B].[CR][CR]"
+msgstr "Η κλήση του [B]εναλλακτικού μενού[/B] εξαρτάται από την πλατφόρμα την οποία χρησιμοποιείτε και έχει [B]διαφορετικές μεθόδους[/B]"
+
+msgctxt "#30137"
+msgid "Context menu could be opened by either a [B]right mouse button[/B] click, [B]long left mouse button[/B] click, [B]long key press[/B] on mobile phones, tablets and remote controls.[CR][CR]"
+msgstr "Το εναλλακτικό μενού μπορεί να ανοίξει είτε πατώντας το [B]δεξί πλήκτρο του ποντικιού[/B], [B]παρατεταμένο αριστερό κλικ ποντικιού[/B], παρατεταμένο πάτημα σε οθόνη αφής, ταμπλέτες και τηλεχειριστήρια.[CR][CR]"
+
+msgctxt "#30138"
+msgid "Certain remote controls even have a [B]dedicated context menu button[/B] assigned.[CR][CR]"
+msgstr "Ορισμένα τηλεχειριστήρια έχουν πλήκτρα [B]αποκλειστικά για την κλήση[B] του εναλλακτικού μενου.[CR][CR]"
+
+msgctxt "#30139"
+msgid "Both [B]unregistered[/B] and [B]registered users[/B] can take [B]full advantage[/B] of this Kodi addon.[CR][CR]"
+msgstr "Το πρόσθετο μπορεί να χρησιμοποιηθεί και από [B]εγγεγραμμένους και μη[/B] χρήστες στο Reddit, σε όλες του τις δυνατότητες.[CR][CR]"
+
+msgctxt "#30140"
+msgid "Unregistered users have access to the [B]local bookmarking[/B] feature, while registereed users may also access their [B]subscriptions[/B] and saved items.[CR][CR]"
+msgstr "Οι μη εγγεγραμένοι μπορούν να χρησιμοποιήσουν το χαρακτηριστικό [B]τοπικών σελιδοδεικτών[/B]. Οι εγγεγραμένοι χρήστες επιπλέον [B]αποκτούν πρόσβαση[/B] στον λογαριασμό τους.[CR][CR]"
+
+msgctxt "#30141"
+msgid "Reddit Navigator fully supports [B]Ace Stream[/B] and [B]SopCast[/B] P2P live streams with the help of the optional [B]Plexus[/B] addon for Kodi.[CR][CR]"
+msgstr "Το Reddit Navigator υποστηρίζει πλήρως τις P2P ζωντανές ροές [B]Ace Stream[/B] και [B]SopCast[/B] με την βοήθεια του προαιρετικού πρόσθετου Plexus για το Kodi.[CR][CR]"
+
+msgctxt "#30142"
+msgid "This original Kodi addon took [B]almost a year[/B] to develop, so we hope y'all enjoy!"
+msgstr "Το παρόν πρωτότυπο αυτό πρόσθετο βρισκόταν [B]σχεδόν ένα χρόνο[/B] υπό ανάπτυξη, γι' αυτό σας ευχόμαστε καλή διασκέδαση!"
+
+msgctxt "#30143"
+msgid "Open picture"
+msgstr "Άνοιγμα εικόνας"
+
+msgctxt "#30144"
+msgid "Load more comments..."
+msgstr "Φόρτωση περισσοτέρων σχολίων..."
+
+msgctxt "#30145"
+msgid "Tokens have been refreshed"
+msgstr "Τα αναγνωριστικά ανανεωθήκανε"
+
+msgctxt "#30146"
+msgid "Please open this link in your web browser to retrieve authorization token: [I]{0}[/I]"
+msgstr "Παρακαλώ ανοίξτε αυτόν τον σύνδεσμο στο παράθυρο του φυλλομετρητή σας για να λάβετε το αναγνωριστικό: [I]{0}[/I]"
+
+msgctxt "#30147"
+msgid ""
+msgstr ""
+
+msgctxt "#30148"
+msgid "Use custom window for displaying text"
+msgstr "Κάνε χρήση τροποποιημένου παραθύρου για την απεικόνιση κειμένου"
+
+msgctxt "#30149"
+msgid "Authorize within Kodi (Requires your Reddit username and password)"
+msgstr "Έγκριση μέσω Kodi (Απαιτεί το ονόμα χρήστη και κωδικό του Reddit)"
+
+msgctxt "#30150"
+msgid "Allow"
+msgstr "Δέχομαι"
+
+msgctxt "#30151"
+msgid "Deny"
+msgstr "Απορρίπτω"
+
+msgctxt "#30152"
+msgid "Username"
+msgstr "Όνομα χρήστη"
+
+msgctxt "#30153"
+msgid "Password"
+msgstr "Κωδικός"
+
+msgctxt "#30154"
+msgid "Submit"
+msgstr "Καταχώρηση"
+
+msgctxt "#30155"
+msgid "Domain search (only one allowed)"
+msgstr "Αναζήτηση βάση διεύθυνσης (επιτρέπεται μόνο μία)"
+
+msgctxt "#30156"
+msgid "Single button navigation mode"
+msgstr "Λειτουργία πλοήγησης μέσω ενός πλήκτρου"
+
+msgctxt "#30157"
+msgid "Play/Display this item"
+msgstr "Αναπαραγωγή/Απεικόνιση αυτού του αντικειμένου"
+
+msgctxt "#30158"
+msgid "Display comment"
+msgstr "Δείξε το σχόλιο"
+
+msgctxt "#30159"
+msgid "Μore actions..."
+msgstr "Περισσότερες ενέργειες..."
+
+msgctxt "#30160"
+msgid "Setting below is for accessibility purposes"
+msgstr "Η παρακάτω ρύθμιση βοηθάει στην προσβασιμότητα"
+
+msgctxt "#30161"
+msgid "Notify user upon refresh"
+msgstr "Ειδοποίησε τον χρήστη κατά την ανανέωση"
+
+msgctxt "#30402"
+msgid "Success"
+msgstr "Επιτυχία"

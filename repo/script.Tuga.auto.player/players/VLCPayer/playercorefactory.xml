@@ -1,0 +1,27 @@
+<playercorefactory>
+        <players>
+                
+
+                <player name="VLCPlayer" type="ExternalPlayer" audio="false" video="true">
+                        <filename>org.videolan.vlc</filename>
+                        <hidexbmc>true</hidexbmc>
+                        <playcountminimumtime>120</playcountminimumtime>
+                </player>
+
+               
+        </players>
+        <rules action="prepend">
+<!---
+**********                   **********
+********** EDIT THIS SECTION **********
+**********                   **********
+-->
+                <rule protocols="smb" player="VLCPlayer" />
+                <rule dvdimage="true" player="VLCPlayer"/>
+                <rule protocols="rtmp" player="VLCPlayer"/>
+                <rule protocols="rtsp" player="VLCPlayer" />
+                <rule protocols="sop" player="VLCPlayer" />
+                <rule internetstream="true" player="VLCPlayer" />
+                <rule video="true" player="VLCPlayer"/> <!-- Default for anything else not listed -->
+        </rules>
+</playercorefactory>

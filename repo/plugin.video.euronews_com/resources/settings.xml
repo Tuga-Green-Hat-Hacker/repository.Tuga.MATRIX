@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" ?>
+<settings version="1">
+	<section id="plugin.video.euronews_com">
+		<category id="allgemein" label="30000" help="">
+			<group id="1" label="30230">
+				<setting id="language" type="integer" label="30110" help="">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30111">0</option>
+							<option label="30112">1</option>
+							<option label="30113">2</option>
+							<option label="30114">3</option>
+							<option label="30115">4</option>
+							<option label="30116">5</option>
+							<option label="30117">6</option>
+							<option label="30118">7</option>
+							<option label="30119">8</option>
+							<option label="30120">9</option>
+							<option label="30121">10</option>
+							<option label="30122">11</option>
+							<option label="30123">12</option>
+						</options>
+					</constraints>
+					<control type="list" format="string">
+						<heading>30110</heading>
+					</control>
+				</setting>
+			</group>
+			<group id="2"/>
+			<group id="3" label="30231">
+				<setting id="YOUTUBE_LINK" type="boolean" label="30124" help="30350">
+					<level>0</level>
+					<default>true</default>
+					<control type="toggle"/>
+				</setting>
+			</group>
+			<group id="4"/>
+			<group id="5" label="30232">
+				<setting id="useThumbAsFanart" type="boolean" label="30125" help="">
+					<level>0</level>
+					<default>true</default>
+					<control type="toggle"/>
+				</setting>
+			</group>
+		</category>
+		<category id="fortgeschritten" label="30001" help="">
+			<group id="1" label="30233">
+				<setting id="show_settings" type="boolean" label="30126" help="">
+					<level>0</level>
+					<default>true</default>
+					<control type="toggle"/>
+				</setting>
+			</group>
+			<group id="2"/>
+			<group id="3" label="30234">
+				<setting id="enableDebug" type="boolean" label="30127" help="">
+					<level>0</level>
+					<default>false</default>
+					<control type="toggle"/>
+				</setting>
+			</group>
+		</category>
+	</section>
+</settings>

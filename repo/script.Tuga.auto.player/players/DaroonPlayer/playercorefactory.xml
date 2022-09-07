@@ -1,0 +1,25 @@
+<playercorefactory>
+        <players>
+                
+
+                <player name="DaroonPlayer" type="ExternalPlayer" audio="false" video="true">
+                        <filename>com.daroonplayer.dsplayer</filename>
+                        <hidexbmc>true</hidexbmc>
+                        <playcountminimumtime>120</playcountminimumtime>
+                </player>
+        </players>
+        <rules action="prepend">
+<!---
+**********                   **********
+********** EDIT THIS SECTION **********
+**********                   **********
+-->
+                <rule protocols="smb" player="DaroonPlayer" />
+                <rule dvdimage="true" player="DaroonPlayer"/>
+                <rule protocols="rtmp" player="DaroonPlayer"/>
+                <rule protocols="rtsp" player="DaroonPlayer" />
+                <rule protocols="sop" player="DaroonPlayer" />
+                <rule internetstream="true" player="DaroonPlayer" />
+                <rule video="true" player="DaroonPlayer"/> <!-- Default for anything else not listed -->
+        </rules>
+</playercorefactory>

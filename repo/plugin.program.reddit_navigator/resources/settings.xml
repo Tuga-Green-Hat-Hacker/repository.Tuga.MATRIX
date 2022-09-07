@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+    <category label="30006">
+        <setting id="window.action" type="select" label="30009" lvalues="30007|30008" default="1"/>
+        <setting type="lsep" label="30160"/>
+        <setting id="single.button" label="30156" type="bool" default="false"/>
+        <setting id="image.fullscreen" label="30071" type="bool" default="true"/>
+        <setting id="text.box" label="30148" type="bool" default="false"/>
+        <setting id="user.icon" label="30128" type="bool" default="true"/>
+        <setting id="pyxbmct.estuary" label="30129" type="bool" default="true"/>
+        <setting type="sep"/>
+        <setting id="include.nsfw" label="30014" type="bool" default="false"/>
+        <setting id="add.hosts" label="30054" type="bool" default="false"/>
+        <setting type="lsep" label="30111"/>
+        <setting id="label.formatting" type="enum" label="30108" lvalues="30110|30109" default="0"/>
+        <setting id="history.bool" label="30037" type="bool" default="true"/>
+        <setting id="history.size" type="slider" label="30011" default="10" range="5,1,50" option="int" enable="eq(-1,true)"/>
+        <setting id="items.limit" type="labelenum" label="30049" default="50" values="25|50|100"/>
+        <setting id="cache.size" type="slider" label="30013" default="6" range="1,1,48" option="int"/>
+    </category>
+    <category label="30048">
+        <setting id="auto.refresh" label="30087" type="bool" default="true"/>
+        <setting id="notify.refresh" label="30161" type="bool" default="false" enable="eq(-1,true)"/>
+        <setting type="sep"/>
+        <setting id="auth.toggle" label="Authorization toggle" type="bool" default="true" visible="false"/>
+        <setting label="30046" type="action" action="RunPlugin(plugin://$ID/?action=authorize)" option="close" enable="eq(-1,true)"/>
+        <setting label="30084" type="action" action="RunPlugin(plugin://$ID/?action=get_tokens)" enable="eq(-2,true)"/>
+        <setting id="get.toggle" label="Get tokens toggle" type="bool" default="false" visible="false"/>
+        <setting label="30086" type="action" action="RunPlugin(plugin://$ID/?action=access_renewal)" enable="eq(-1,true)"/>
+        <setting label="30074" type="action" action="RunPlugin(plugin://$ID/?action=revoke)" option="close" enable=" eq(-2,true)"/>
+        <setting type="sep"/>
+        <setting id="auth.token" type="text" label="30073" default=""/>
+        <setting id="refresh.token" type="text" label="30075" default="" enable="false"/>
+        <setting id="access.token" type="text" label="30076" default="" enable="false"/>
+        <setting id="access.scope" type="text" label="30077" default="" enable="false"/>
+        <setting id="expiration.string" type="text" label="30078" default="" enable="false"/>
+        <setting id="expiration.stamp" type="text" label="Expiration timestamp" default="" visible="false"/>
+        <setting id="username.string" type="text" label="Username" default="" enable="false"/>
+        <setting id="avatar.url" type="text" label="User's icon" default="" visible="false"/>
+    </category>
+    <category label="30066">
+        <setting id="show.mode" label="30124" type="bool" default="true"/>
+        <setting id="show.hot" label="30122" type="bool" default="true"/>
+        <setting id="show.new" label="30123" type="bool" default="true"/>
+        <setting id="show.media" label="30094" type="bool" default="true"/>
+        <setting id="show.subreddits" label="30095" type="bool" default="true"/>
+        <setting id="show.saved" label="30096" type="bool" default="true"/>
+        <setting id="show.bookmarks" label="30097" type="bool" default="true"/>
+        <setting id="show.account" label="30098" type="bool" default="true"/>
+        <setting id="show.tools" label="30099" type="bool" default="true"/>
+    </category>
+    <category label="30041">
+        <setting label="30040" type="action" action="RunPlugin(plugin://$ID/?action=delete_history)"/>
+        <setting label="30042" type="action" action="RunPlugin(plugin://$ID/?action=clear_cache)"/>
+        <setting label="30045" type="action" action="RunPlugin(plugin://$ID/?action=purge_bookmarks)"/>
+        <setting label="30015" type="action" action="RunPlugin(plugin://$ID/?action=debugging_toggle)"/>
+        <setting id="first.time" label="30112" type="bool" default="false" visible="true"/>
+        <setting id="debugging.toggle" label="Debug toggle" type="bool" default="false" visible="false"/>
+    </category>
+</settings>

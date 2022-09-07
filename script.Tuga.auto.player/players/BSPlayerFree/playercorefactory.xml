@@ -1,0 +1,27 @@
+<playercorefactory>
+        <players>
+                
+
+                <player name="BSPlayerFree" type="ExternalPlayer" audio="false" video="true">
+                        <filename>com.bsplayer.bspandroid.free</filename>
+                        <hidexbmc>true</hidexbmc>
+                        <playcountminimumtime>120</playcountminimumtime>
+                </player>
+
+                
+        </players>
+        <rules action="prepend">
+<!---
+**********                   **********
+********** EDIT THIS SECTION **********
+**********                   **********
+-->
+                <rule protocols="smb" player="BSPlayerFree" />
+                <rule dvdimage="true" player="BSPlayerFree"/>
+                <rule protocols="rtmp" player="BSPlayerFree"/>
+                <rule protocols="rtsp" player="BSPlayerFree" />
+                <rule protocols="sop" player="BSPlayerFree" />
+                <rule internetstream="true" player="BSPlayerFree" />
+                <rule video="true" player="BSPlayerFree"/> <!-- Default for anything else not listed -->
+        </rules>
+</playercorefactory>

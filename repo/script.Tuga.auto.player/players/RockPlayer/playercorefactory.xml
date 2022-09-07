@@ -1,0 +1,27 @@
+<playercorefactory>
+        <players>
+                
+
+                <player name="RockPlayer" type="ExternalPlayer" audio="false" video="true">
+                        <filename>com.rockplayer</filename>
+                        <hidexbmc>true</hidexbmc>
+                        <playcountminimumtime>120</playcountminimumtime>
+                </player>
+
+               
+        </players>
+        <rules action="prepend">
+<!---
+**********                   **********
+********** EDIT THIS SECTION **********
+**********                   **********
+-->
+                <rule protocols="smb" player="RockPlayer" />
+                <rule dvdimage="true" player="RockPlayer"/>
+                <rule protocols="rtmp" player="RockPlayer"/>
+                <rule protocols="rtsp" player="RockPlayer" />
+                <rule protocols="sop" player="RockPlayer" />
+                <rule internetstream="true" player="RockPlayer" />
+                <rule video="true" player="RockPlayer"/> <!-- Default for anything else not listed -->
+        </rules>
+</playercorefactory>

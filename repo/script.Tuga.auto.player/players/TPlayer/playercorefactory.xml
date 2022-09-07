@@ -1,0 +1,27 @@
+<playercorefactory>
+        <players>
+                
+
+                <player name="TPlayer" type="ExternalPlayer" audio="false" video="true">
+                        <filename>com.tiantian.android.player.app</filename>
+                        <hidexbmc>true</hidexbmc>
+                        <playcountminimumtime>120</playcountminimumtime>
+                </player>
+
+               
+        </players>
+        <rules action="prepend">
+<!---
+**********                   **********
+********** EDIT THIS SECTION **********
+**********                   **********
+-->
+                <rule protocols="smb" player="TPlayer" />
+                <rule dvdimage="true" player="TPlayer"/>
+                <rule protocols="rtmp" player="TPlayer"/>
+                <rule protocols="rtsp" player="TPlayer" />
+                <rule protocols="sop" player="TPlayer" />
+                <rule internetstream="true" player="TPlayer" />
+                <rule video="true" player="TPlayer"/> <!-- Default for anything else not listed -->
+        </rules>
+</playercorefactory>

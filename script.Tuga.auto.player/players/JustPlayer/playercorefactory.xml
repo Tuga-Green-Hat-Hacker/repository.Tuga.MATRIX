@@ -1,0 +1,12 @@
+<playercorefactory>
+    <players>
+        <player name="JustPlayer" type="ExternalPlayer" audio="false" video="true">
+            <filename>com.brouken.player</filename>
+            <hidexbmc>true</hidexbmc>
+            <playcountminimumtime>120</playcountminimumtime>
+        </player>
+    </players>
+    <rules action="prepend">
+        <rule video="true" player="JustPlayer"/>
+    </rules>
+</playercorefactory>

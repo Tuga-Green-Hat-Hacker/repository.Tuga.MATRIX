@@ -1,0 +1,654 @@
+# Addon Name: Reddit Navigator
+# Addon id: plugin.video.reddit_navigator
+# Addon Provider: Twilight0
+
+msgid ""
+msgstr ""
+
+msgctxt "#30001"
+msgid "Search for media"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Saved subreddits"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Quick search"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Read Me"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Advanced search"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Options"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Dialog"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Directory"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Window action (applicable only to certain sections)"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Search history"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Search history size"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Search for subreddits"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Cache expiration in hours"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Include NSFW results (N/A if not logged in)"
+msgstr ""
+
+msgctxt "#30015"
+msgid "(De)activate debugging"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Do you want to enable addon specific debugging as well?"
+msgstr ""
+
+msgctxt "#30017"
+msgid "IP Address of this machine"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Choose one or more"
+msgstr ""
+
+msgctxt "#30019"
+msgid "Narrow by a subreddit"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Find posts by a user (author)"
+msgstr ""
+
+msgctxt "#30021"
+msgid "Add a site to the query"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Find a text in the url"
+msgstr ""
+
+msgctxt "#30023"
+msgid "Add to bookmarks"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Remove from bookmarks"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Bookmarks list empty"
+msgstr ""
+
+msgctxt "#30026"
+msgid "No saved subreddits were found"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Bookmarks"
+msgstr ""
+
+msgctxt "#30028"
+msgid "Tools"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Mode:"
+msgstr ""
+
+msgctxt "#30030"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Image"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Activate video mode"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Activate audio mode"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Activate pictures mode"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Executable"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Show & Keep history"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Save subreddit"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Delete subreddit"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Delete history"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Actions"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Clear function cache"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Next >"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Go to subreddit"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Purge bookmarks"
+msgstr ""
+
+msgctxt "#30046"
+msgid "Authorize Reddit Navigator"
+msgstr ""
+
+msgctxt "#30047"
+msgid "Port to listen on"
+msgstr ""
+
+msgctxt "#30048"
+msgid "Credentials"
+msgstr ""
+
+msgctxt "#30049"
+msgid "Number of items to display"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#30051"
+msgid "Install Plexus"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Do not allow search in text submissions"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Text search in self submissions"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Add supported media domains (invisible)"
+msgstr ""
+
+msgctxt "#30055"
+msgid "Subscribe to this subreddit"
+msgstr ""
+
+msgctxt "#30056"
+msgid "Set the ip address to listen on"
+msgstr ""
+
+msgctxt "#30057"
+msgid "Authorize Reddit Navigator"
+msgstr ""
+
+msgctxt "#30058"
+msgid "Revoke authorization"
+msgstr ""
+
+msgctxt "#30059"
+msgid "Cancelled"
+msgstr ""
+
+msgctxt "#30060"
+msgid "Use 127.0.0.1 if you 're authorizing locally this device, otherwise use the other ip address if remotely"
+msgstr ""
+
+msgctxt "#30061"
+msgid "Make a choice"
+msgstr ""
+
+msgctxt "#30062"
+msgid "Close"
+msgstr ""
+
+msgctxt "#30063"
+msgid "Activate http server and open link immediately"
+msgstr ""
+
+msgctxt "#30064"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "#30065"
+msgid "You can now return to Kodi"
+msgstr ""
+
+msgctxt "#30066"
+msgid "Folders"
+msgstr ""
+
+msgctxt "#30067"
+msgid "Authorization failed or denied by user"
+msgstr ""
+
+msgctxt "#30068"
+msgid "Please try again"
+msgstr ""
+
+msgctxt "#30069"
+msgid "Authorization token obtained: {0}"
+msgstr ""
+
+msgctxt "#30070"
+msgid "version: {0}"
+msgstr ""
+
+msgctxt "#30071"
+msgid "Show images in fullscreen"
+msgstr ""
+
+msgctxt "#30072"
+msgid "Choose one or more subreddits"
+msgstr ""
+
+msgctxt "#30073"
+msgid "Authorization token"
+msgstr ""
+
+msgctxt "#30074"
+msgid "Revoke tokens"
+msgstr ""
+
+msgctxt "#30075"
+msgid "Refresh token"
+msgstr ""
+
+msgctxt "#30076"
+msgid "Access token"
+msgstr ""
+
+msgctxt "#30077"
+msgid "Access scope"
+msgstr ""
+
+msgctxt "#30078"
+msgid "Access expiration"
+msgstr ""
+
+msgctxt "#30079"
+msgid "Are you sure you want to revoke stored tokens?"
+msgstr ""
+
+msgctxt "#30080"
+msgid ""
+msgstr ""
+
+msgctxt "#30081"
+msgid "Enter tokens manually"
+msgstr ""
+
+msgctxt "#30082"
+msgid "Please enter the authorization token:"
+msgstr ""
+
+msgctxt "#30083"
+msgid "Authorization token is blank, aborting"
+msgstr ""
+
+msgctxt "#30084"
+msgid "Manual retrieval of tokens"
+msgstr ""
+
+msgctxt "#30085"
+msgid "Display compact authorization page"
+msgstr ""
+
+msgctxt "#30086"
+msgid "Renew access token now"
+msgstr ""
+
+msgctxt "#30087"
+msgid "Auto refresh of access token"
+msgstr ""
+
+msgctxt "#30088"
+msgid "Unsubscribe from this subreddit"
+msgstr ""
+
+msgctxt "#30089"
+msgid "Sync local to remote"
+msgstr ""
+
+msgctxt "#30090"
+msgid "My account on Reddit"
+msgstr ""
+
+msgctxt "#30091"
+msgid "Saved items"
+msgstr ""
+
+msgctxt "#30092"
+msgid "My subreddits"
+msgstr ""
+
+msgctxt "#30093"
+msgid "My multi"
+msgstr ""
+
+msgctxt "#30094"
+msgid "Show search media"
+msgstr ""
+
+msgctxt "#30095"
+msgid "Show search subreddits"
+msgstr ""
+
+msgctxt "#30096"
+msgid "Show saved subreddits"
+msgstr ""
+
+msgctxt "#30097"
+msgid "Show bookmarks"
+msgstr ""
+
+msgctxt "#30098"
+msgid "Show my account"
+msgstr ""
+
+msgctxt "#30099"
+msgid "Show tools"
+msgstr ""
+
+msgctxt "#30100"
+msgid "Open thread"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Multiselection of listed subreddits"
+msgstr ""
+
+msgctxt "#30102"
+msgid "Replies: "
+msgstr ""
+
+msgctxt "#30103"
+msgid "Comments: "
+msgstr ""
+
+msgctxt "#30104"
+msgid "Go to root menu"
+msgstr ""
+
+msgctxt "#30105"
+msgid "Save this item"
+msgstr ""
+
+msgctxt "#30106"
+msgid "Unsave this item"
+msgstr ""
+
+msgctxt "#30107"
+msgid "Refresh"
+msgstr ""
+
+msgctxt "#30108"
+msgid "Label formatting"
+msgstr ""
+
+msgctxt "#30109"
+msgid "Long single line"
+msgstr ""
+
+msgctxt "#30110"
+msgid "Two lines"
+msgstr ""
+
+msgctxt "#30111"
+msgid "Warning: Some skins do not support two lines"
+msgstr ""
+
+msgctxt "#30112"
+msgid "Enable first time prompt"
+msgstr ""
+
+msgctxt "#30113"
+msgid "Read subreddit's description"
+msgstr ""
+
+msgctxt "#30114"
+msgid "Wrong username and/or password"
+msgstr ""
+
+msgctxt "#30115"
+msgid "Quit"
+msgstr ""
+
+msgctxt "#30116"
+msgid ""
+msgstr ""
+
+msgctxt "#30117"
+msgid "More..."
+msgstr ""
+
+msgctxt "#30118"
+msgid "Scrape comment for urls"
+msgstr ""
+
+msgctxt "#30119"
+msgid "Add a flair"
+msgstr ""
+
+msgctxt "#30120"
+msgid "Hot"
+msgstr ""
+
+msgctxt "#30121"
+msgid "New"
+msgstr ""
+
+msgctxt "#30122"
+msgid "Show hot"
+msgstr ""
+
+msgctxt "#30123"
+msgid "Show new"
+msgstr ""
+
+msgctxt "#30124"
+msgid "Show mode changer"
+msgstr ""
+
+msgctxt "#30125"
+msgid "Stream has not been resolved!"
+msgstr ""
+
+msgctxt "#30126"
+msgid "Attempt to play on kodi"
+msgstr ""
+
+msgctxt "#30127"
+msgid "Open external web browser window"
+msgstr ""
+
+msgctxt "#30128"
+msgid "Replace icon in my account menu with user's one"
+msgstr ""
+
+msgctxt "#30129"
+msgid "Custom windows are displayed with estuary's look"
+msgstr ""
+
+msgctxt "#30130"
+msgid "No links were found"
+msgstr ""
+
+msgctxt "#30131"
+msgid "Welcome to the new [B]Reddit Navigator[/B], a powerful [B]scraper addon[/B] for Kodi.[CR][CR]"
+msgstr ""
+
+msgctxt "#30132"
+msgid "Scrape [B]video[/B], [B]live streams[/B], [B]audio[/B], [B]images[/B] and [B]discussions[/B] posted by members of the Reddit platform. Use the [B]powerful search functionality[/B] to discover a world of content.[CR][CR]"
+msgstr ""
+
+msgctxt "#30133"
+msgid "[B]Niche communities known as subreddits[/B] are independently created and moderated.[CR][CR]"
+msgstr ""
+
+msgctxt "#30134"
+msgid "Subreddits exist for [B]any and every topic[/B] you can possibly [B]imagine[/B].[CR][CR]"
+msgstr ""
+
+msgctxt "#30135"
+msgid "The use of the Kodi media center's [B]context menu is critical[/B] to achieving the [B]maximal benefits[/B] of Reddit Navigator.[CR][CR]"
+msgstr ""
+
+msgctxt "#30136"
+msgid "Depending on your platform, the [B]context menu[/B] is launched via [B]different methods[/B].[CR][CR]"
+msgstr ""
+
+msgctxt "#30137"
+msgid "Context menu could be opened by either a [B]right mouse button[/B] click, [B]long left mouse button[/B] click, [B]long key press[/B] on mobile phones, tablets and remote controls.[CR][CR]"
+msgstr ""
+
+msgctxt "#30138"
+msgid "Certain remote controls even have a [B]dedicated context menu button[/B] assigned.[CR][CR]"
+msgstr ""
+
+msgctxt "#30139"
+msgid "Both [B]unregistered[/B] and [B]registered users[/B] can take [B]full advantage[/B] of this Kodi addon.[CR][CR]"
+msgstr ""
+
+msgctxt "#30140"
+msgid "Unregistered users have access to the [B]local bookmarking[/B] feature, while registereed users may also access their [B]subscriptions[/B] and saved items.[CR][CR]"
+msgstr ""
+
+msgctxt "#30141"
+msgid "Reddit Navigator fully supports [B]Ace Stream[/B] and [B]SopCast[/B] P2P live streams with the help of the optional [B]Plexus[/B] addon for Kodi.[CR][CR]"
+msgstr ""
+
+msgctxt "#30142"
+msgid "This original Kodi addon took [B]almost a year[/B] to develop, so we hope y'all enjoy!"
+msgstr ""
+
+msgctxt "#30143"
+msgid "Open picture"
+msgstr ""
+
+msgctxt "#30144"
+msgid "Load more comments..."
+msgstr ""
+
+msgctxt "#30145"
+msgid "Tokens have been refreshed"
+msgstr ""
+
+msgctxt "#30146"
+msgid "Please open this link in your web browser to retrieve authorization token: [I]{0}[/I]"
+msgstr ""
+
+msgctxt "#30147"
+msgid ""
+msgstr ""
+
+msgctxt "#30148"
+msgid "Use custom window for displaying text"
+msgstr ""
+
+msgctxt "#30149"
+msgid "Authorize within Kodi (Requires your Reddit username and password)"
+msgstr ""
+
+msgctxt "#30150"
+msgid "Allow"
+msgstr ""
+
+msgctxt "#30151"
+msgid "Deny"
+msgstr ""
+
+msgctxt "#30152"
+msgid "Username"
+msgstr ""
+
+msgctxt "#30153"
+msgid "Password"
+msgstr ""
+
+msgctxt "#30154"
+msgid "Submit"
+msgstr ""
+
+msgctxt "#30155"
+msgid "Domain search (only one allowed)"
+msgstr ""
+
+msgctxt "#30156"
+msgid "Single button navigation mode"
+msgstr ""
+
+msgctxt "#30157"
+msgid "Play/Display this item"
+msgstr ""
+
+msgctxt "#30158"
+msgid "Display comment"
+msgstr ""
+
+msgctxt "#30159"
+msgid "Μore actions..."
+msgstr ""
+
+msgctxt "#30160"
+msgid "Setting below is for accessibility purposes"
+msgstr ""
+
+msgctxt "#30161"
+msgid "Notify user upon refresh"
+msgstr ""
+
+msgctxt "#30402"
+msgid "Success"
+msgstr ""

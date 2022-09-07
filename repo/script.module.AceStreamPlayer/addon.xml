@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.AceStreamPlayer" name="AceStream Player" version="1.1.7" provider-name="Tuga">
+    <requires>
+        <import addon="script.module.six" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <description>ACE STREAM ADD-ON
+This is an innovative media platform of a new generation, which will take you to a new high-quality level of multimedia space on the Internet.
+        </description>
+        <disclaimer>Channels AceStream player</disclaimer>
+        <platform>all</platform>
+        <assets>
+              <icon>icon.png</icon>
+              <fanart>fanart.jpg</fanart>
+              <screenshot>resources/media/Screenshot1.png</screenshot>
+              <screenshot>resources/media/Screenshot2.png</screenshot>
+              <screenshot>resources/media/Screenshot3.png</screenshot>
+              <screenshot>resources/media/Screenshot4.png</screenshot>
+        </assets>
+        <news>
+            - Version Kodi 19x MATRIX
+        </news>
+        <forum>https://t.me/acestream</forum>
+    </extension>
+</addon>

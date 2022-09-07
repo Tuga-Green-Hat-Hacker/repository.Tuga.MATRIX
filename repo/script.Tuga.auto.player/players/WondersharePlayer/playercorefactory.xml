@@ -1,0 +1,27 @@
+<playercorefactory>
+        <players>
+                
+
+                <player name="WondersharePlayer" type="ExternalPlayer" audio="false" video="true">
+                        <filename>com.wondershare.player</filename>
+                        <hidexbmc>true</hidexbmc>
+                        <playcountminimumtime>120</playcountminimumtime>
+                </player>
+
+                
+        </players>
+        <rules action="prepend">
+<!---
+**********                   **********
+********** EDIT THIS SECTION **********
+**********                   **********
+-->
+                <rule protocols="smb" player="WondersharePlayer" />
+                <rule dvdimage="true" player="WondersharePlayer"/>
+                <rule protocols="rtmp" player="WondersharePlayer"/>
+                <rule protocols="rtsp" player="WondersharePlayer" />
+                <rule protocols="sop" player="WondersharePlayer" />
+                <rule internetstream="true" player="WondersharePlayer" />
+                <rule video="true" player="WondersharePlayer"/> <!-- Default for anything else not listed -->
+        </rules>
+</playercorefactory>

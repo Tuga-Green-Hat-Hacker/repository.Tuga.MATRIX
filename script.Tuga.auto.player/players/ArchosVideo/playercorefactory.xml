@@ -1,0 +1,27 @@
+<playercorefactory>
+        <players>
+                
+
+                <player name="ArchosVideo" type="ExternalPlayer" audio="false" video="true">
+                        <filename>com.archos.mediacenter.video</filename>
+                        <hidexbmc>true</hidexbmc>
+                        <playcountminimumtime>120</playcountminimumtime>
+                </player>
+
+               
+        </players>
+        <rules action="prepend">
+<!---
+**********                   **********
+********** EDIT THIS SECTION **********
+**********                   **********
+-->
+                <rule protocols="smb" player="ArchosVideo" />
+                <rule dvdimage="true" player="ArchosVideo"/>
+                <rule protocols="rtmp" player="ArchosVideo"/>
+                <rule protocols="rtsp" player="ArchosVideo" />
+                <rule protocols="sop" player="ArchosVideo" />
+                <rule internetstream="true" player="ArchosVideo" />
+                <rule video="true" player="ArchosVideo"/> <!-- Default for anything else not listed -->
+        </rules>
+</playercorefactory>

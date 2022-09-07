@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.tulip" name="Tulip Library" version="2.8.5" provider-name="Twilight0">
+    <requires>
+        <import addon="xbmc.addon" version="16.1.000"/>
+        <import addon="script.module.kodi-six" version="0.0.2"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Tulip library with helper functions for Kodi and its forks</summary>
+        <description lang="en">Tulip library combines the best elements from Lambda's "lamlib" and tknorris's shared modules. Also includes various enhancements, newer and improved functions and Python 3 compatibility, though the latter is largely untested. Can also be as standalone utils</description>
+        <platform>all</platform>
+        <license>GPL-3.0-only</license>
+        <source>https://github.com/Twilight0/script.module.tulip</source>
+        <news>[B]2.8.X[/B]
+- Replaced xbmc.python import with xbmc.addon for Matrix compatibility
+- New utils module
+- Updated user agent strings
+- Updated m3u8 modules
+- Various fixes &amp; tweaks for Kodi 19
+
+[B]2.7.X[/B]
+- New cache functions (taken from ResolveURL and adapted)
+- Various other tweaks</news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

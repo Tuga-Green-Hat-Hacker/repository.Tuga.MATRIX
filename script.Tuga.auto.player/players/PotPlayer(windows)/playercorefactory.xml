@@ -1,0 +1,12 @@
+<playercorefactory>
+        <players>
+                <player name="POTPLAYER" type="ExternalPlayer" audio="false" video="true">
+                        <filename>C:\Program Files\DAUM\PotPlayer\PotPlayerMini64.exe</filename>
+                        <args>--fullscreen "{1}"</args>
+                        <hidexbmc>true</hidexbmc>
+                </player>       
+        </players>
+        <rules action="prepend">
+                <rule video="true" player="POTPLAYER"/>
+        </rules>
+</playercorefactory>

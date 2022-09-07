@@ -1,0 +1,174 @@
+﻿# Kodi Media Center language file
+# Addon Name: euronews.com
+# Addon id: plugin.video.euronews_com
+# Addon Provider: L0RE, realvito
+msgid ""
+msgstr ""
+"Project-Id-Version: KODI-Addons\n"
+"Report-Msgid-Bugs-To: alanwww1@kodi.org\n"
+"POT-Creation-Date: 2020-06-06 11:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: realvito\n"
+"Language-Team: ROMANIAN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# strings start
+# SETTINGS-CATEGORIES
+
+msgctxt "#30000"
+msgid "General"
+msgstr "General"
+
+msgctxt "#30001"
+msgid "Advanced"
+msgstr "Avansat"
+
+# empty strings from id 30002 to 30109
+# SETTINGS-BUTTONS
+
+msgctxt "#30110"
+msgid "     Euronews - Language"
+msgstr "     Euronews - Limbă"
+
+msgctxt "#30111"
+msgid "English"
+msgstr "Engleză"
+
+msgctxt "#30112"
+msgid "Greek"
+msgstr "Greacă"
+
+msgctxt "#30113"
+msgid "French"
+msgstr "Franceză"
+
+msgctxt "#30114"
+msgid "German"
+msgstr "Germană"
+
+msgctxt "#30115"
+msgid "Italian"
+msgstr "Italiană"
+
+msgctxt "#30116"
+msgid "Spanish"
+msgstr "Spaniolă"
+
+msgctxt "#30117"
+msgid "Portuguese"
+msgstr "Portugheză"
+
+msgctxt "#30118"
+msgid "Hungarian"
+msgstr "Ungară"
+
+msgctxt "#30119"
+msgid "Russian"
+msgstr "Rusă"
+
+msgctxt "#30120"
+msgid "[COLOR orangered]Ukrainian (switched off)[/COLOR]"
+msgstr "[COLOR orangered]Ucraineană (inchis)[/COLOR]"
+
+msgctxt "#30121"
+msgid "Turkish"
+msgstr "Turcă"
+
+msgctxt "#30122"
+msgid "Arabic"
+msgstr "Arabă"
+
+msgctxt "#30123"
+msgid "Persian"
+msgstr "Persană"
+
+msgctxt "#30124"
+msgid "     Videos preferably play via [COLOR yellow]*YOUTUBE-Link*[/COLOR]"
+msgstr "     Videoclipurile sunt de preferat redate prin [COLOR yellow]*YOUTUBE-Link*[/COLOR]"
+
+msgctxt "#30125"
+msgid "     Use Thumb as Background-Fanart"
+msgstr "     Utilizați Thumb ca Fanart de fundal"
+
+msgctxt "#30126"
+msgid "     Show Addon-Settings in the overview"
+msgstr "     Afișați Setări-Addon în prezentare"
+
+msgctxt "#30127"
+msgid "     Detailed Addon-Debug (otherwise only Minimal-Log)"
+msgstr "     Addon-Depanare detaliat (altfel doar Minimal-Buturuga)"
+
+# empty strings from id 30128 to 30229
+# SETTINGS-TITLES
+
+msgctxt "#30230"
+msgid "[B][COLOR ff0099ff]LANGUAGE[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]LIMBA[/COLOR][/B]"
+
+msgctxt "#30231"
+msgid "[B][COLOR ff0099ff]PLAY[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]JOACA[/COLOR][/B]"
+
+msgctxt "#30232"
+msgid "[B][COLOR ff0099ff]FANART[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]FAN AL ARTEI[/COLOR][/B]"
+
+msgctxt "#30233"
+msgid "[B][COLOR ff0099ff]SETTINGS[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]SETĂRI[/COLOR][/B]"
+
+msgctxt "#30234"
+msgid "[B][COLOR ff0099ff]LOG[/COLOR][/B]"
+msgstr "[B][COLOR ff0099ff]BUTURUGA[/COLOR][/B]"
+
+# empty strings from id 30235 to 30349
+# SETTINGS-DESCRIPTIONS
+
+msgctxt "#30350"
+msgid "     * [COLOR chartreuse]If activated: playing Youtube-Link, if Link available (higher quality) - otherwise standard ![/COLOR] *"
+msgstr "     * [COLOR chartreuse]Dacă este activat: redarea Youtube-Link, dacă este disponibil Link (calitate superioară) - altfel standard ![/COLOR] *"
+
+# empty strings from id 30351 to 30500
+# WARNING/INFORMATION-MESSAGES-OK
+
+# empty strings from id 30501 to 30520
+# WARNING/INFORMATION-MESSAGES-NOTIFICATION
+
+msgctxt "#30521"
+msgid "euronews.com : [COLOR red]!!! {0:s} - ERROR !!![/COLOR]"
+msgstr "euronews.com : [COLOR red]!!! {0:s} - EROARE !!![/COLOR]"
+
+msgctxt "#30522"
+msgid "[COLOR red]Unfortunately, there are NO {0:s} :[/COLOR]"
+msgstr "[COLOR red]Din păcate, NU există {0:s} :[/COLOR]"
+
+msgctxt "#30523"
+msgid "[COLOR red]An error has occured, please check *LOG* ![/COLOR]"
+msgstr "[COLOR red]A apărut o eroare, verificați *BUTURUGA* ![/COLOR]"
+
+msgctxt "#30524"
+msgid "* [COLOR blue]In the Category: {0:s}[/COLOR] * at euronews.com"
+msgstr "* [COLOR blue]În categorie: {0:s}[/COLOR] * la euronews.com"
+
+msgctxt "#30525"
+msgid "ERROR = [COLOR red]Unfortunately no Live-Stream found ![/COLOR]"
+msgstr "ERROR = [COLOR red]Din păcate, nu a fost găsit Live-Stream ![/COLOR]"
+
+# empty strings from id 30526 to 30600
+# PLUGIN-MAIN and SIDEMENU
+
+msgctxt "#30608"
+msgid "[COLOR lime]* LIVESTREAM *[/COLOR]"
+msgstr "[COLOR lime]* TRANSMITERE LIVE *[/COLOR]"
+
+msgctxt "#30609"
+msgid "euronews Settings"
+msgstr "Setări euronews"
+
+msgctxt "#30610"
+msgid "[COLOR lime]* EURONEWS LIVE-TV *[/COLOR]"
+msgstr "[COLOR lime]* EURONEWS LIVE-TV *[/COLOR]"

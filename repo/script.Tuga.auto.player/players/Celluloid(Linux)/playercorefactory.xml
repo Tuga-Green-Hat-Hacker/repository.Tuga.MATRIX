@@ -1,0 +1,28 @@
+<playercorefactory>
+        <players>
+              
+
+                <player name="celluloid" type="ExternalPlayer" audio="false" video="true">
+                        <filename>/usr/bin/celluloid</filename>
+                        <hidexbmc>true</hidexbmc>
+                        <playcountminimumtime>120</playcountminimumtime>
+                </player>
+
+               
+        </players>
+        <rules action="prepend">
+<!---
+**********                   **********
+********** EDIT THIS SECTION **********
+**********                   **********
+-->
+                <rule protocols="smb" player="celluloid" />
+                <rule dvdimage="true" player="celluloid"/>
+                <rule protocols="rtmp" player="celluloid"/>
+                <rule protocols="rtsp" player="celluloid" />
+                <rule protocols="sop" player="celluloid" />
+                <rule internetstream="true" player="celluloid" />
+                <rule video="true" player="celluloid"/> <!-- Default for anything else not listed -->
+        </rules>
+</playercorefactory>
+
