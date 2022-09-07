@@ -5,9 +5,9 @@
     
     </requires>
 	<extension point="xbmc.addon.repository" name="[B][COLORgreen]REPOSITORY [COLORyellow]Add-ons [COLORred]MATRIX[/B][/COLOR]">
-		<info compressed="false">https://raw.github.com/Tuga-Green-Hat-Hacker/repository.Tuga.MATRIX/master/addons.xml</info>
-		<checksum>https://raw.github.com/Tuga-Green-Hat-Hacker/repository.Tuga.MATRIX/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/Tuga-Green-Hat-Hacker/repository.Tuga.MATRIX/master/repo/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/Tuga-Green-Hat-Hacker/repository.Tuga.MATRIX/main/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Tuga-Green-Hat-Hacker/repository.Tuga.MATRIX/main/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Tuga-Green-Hat-Hacker/repository.Tuga.MATRIX/main/repo/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>[B][COLORgreen]REPOSITORY [COLORyellow]Add-ons [COLORred]MATRIX[/B][/COLOR]</summary>
