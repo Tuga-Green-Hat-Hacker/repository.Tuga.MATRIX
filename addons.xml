@@ -1166,6 +1166,27 @@ This is an innovative media platform of a new generation, which will take you to
   </extension>
 </addon>
 
+<addon id="script.module.codequick" name="CodeQuick" provider-name="willforde" version="1.0.2+matrix.1">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.youtube.dl" version="19.912.1"/>
+        <import addon="script.module.htmlement" version="1.0.0"/>
+        <import addon="script.module.requests" version="2.22.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Framework for creating kodi add-on's.</summary>
+        <description lang="en_GB">Codequick is a framework for kodi add-on's. The goal of this framework is to simplify add-on development. This is achieved by reducing the amount of boilerplate code to a minimum, automating tasks like route dispatching and sort method selection. Ultimately allowing the developer to focus primarily on scraping content from websites and passing it to kodi.</description>
+        <license>GPL-2.0-only</license>
+        <source>https://github.com/willforde/script.module.codequick</source>
+        <email>willforde+codequick@gmail.com</email>
+        <platform>all</platform>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="script.module.cryptopy" name="CryptoPy" version="1.2.9" provider-name="cryptopy.sourceforge.net">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
@@ -1694,6 +1715,38 @@ v8.4.1 (2017-11-28)
 	</extension>
 </addon>
 
+<addon id="script.module.pvr.artwork" name="PVR Artwork Module" version="2.2.3" provider-name="PvD">
+    <requires>
+	    <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.simplecache" version="2.0.2"/>
+        <import addon="script.module.requests" version="2.22.0+matrix" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.script" library="service.py" />
+    <extension point="xbmc.service" library="main.py" />
+    <extension point="kodi.context.item" library="addevent.py">
+            <menu id="kodi.core.main">
+                <item library="service.py" args="call_contextmenu">
+                    <label>32065</label>
+                    <visible>System.HasAddon(script.module.pvr.artwork) + Skin.HasSetting(Skin_enablePvrArtwork) + [Window.IsActive(MyPVRChannels.xml) | Window.IsActive(MyPVRGuide.xml) | Window.IsActive(MyPVRRecordings.xml) | Window.IsActive(MyPVRTimers.xml) | Window.IsActive(MyPVRSearch.xml)]</visible>
+                </item>
+            </menu>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Fetch PVR artwork from folders, libraries and TMDB</summary>
+        <description lang="en">The PVR artwork module for Kodi provides artwork for PVR related content by scraping (and caching) this information from local folders, libraries and TMDB. This module uses the TMDb API but is not certified by TMDb.</description>
+        <news/>
+        <license>GNU GPL Version 3, 29 June 2007</license>
+        <forum/>
+        <source>https://github.com/b-jesch/script.module.pvr.artwork</source>
+        <platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart/>
+		</assets>
+    </extension>
+</addon>
+
 <addon id="script.module.pyjsparser" name="pyjsparser" version="3.0.0" provider-name="Addons4Kodi">
   <requires>
     <!-- <import addon="xbmc.python" version="3.0.0" /> -->
@@ -2053,6 +2106,28 @@ v8.4.1 (2017-11-28)
     <assets>
       <icon>icon.png</icon>
     </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.slproxy" name="SLProxy" version="0.0.7" provider-name="devilsport">
+  <requires>
+    <!--import addon="xbmc.python" version="2.24.0"/>-->
+    <import addon="script.module.requests"/>
+	  <import addon="script.module.streamlink.base"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib/"/>
+  <extension point="xbmc.addon.metadata">
+    <summary>StreamLink Proxy DS</summary>
+    <description>Streamlink proxy for Kodi</description>
+    <platform>all</platform>
+    <license>Simplified BSD</license>
+    <source/>
+    <language>en</language>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+    <news>
+    </news>
   </extension>
 </addon>
 
