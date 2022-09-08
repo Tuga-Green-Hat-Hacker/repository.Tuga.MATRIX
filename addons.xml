@@ -1348,6 +1348,44 @@ v8.4.1 (2017-11-28)
   </extension>
 </addon>
 
+<addon id="script.module.hls.cache"
+		name="[COLOR blue]HLS-CACHE[/COLOR]"
+		version="1.1.1"
+		provider-name="Loki1979">
+	<requires>
+        <import addon="xbmc.python" version="3.0.0" targetversion="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.python.module" library="resources/lib"/>
+	<extension point="xbmc.webinterface"/>
+	<extension point="xbmc.addon.metadata">
+	<summary>Created by loki1979</summary>
+	<description>
+1.) import addon="script.module.hls.cache"
+2.) import hls
+3.) hls.cache_loader(m3u8_url,m3u8_headers={},segment_headers={})
+	</description>
+	<disclaimer></disclaimer>
+	<language></language>
+	<platform>all</platform>
+	<license></license>
+	<forum></forum>
+	<website></website>
+	<email></email>
+	<source></source>
+	<news></news>
+	<assets>
+		<icon>resources/icon.png</icon>
+		<fanart>resources/fanart.jpg</fanart>
+		<banner></banner>
+		<clearlogo></clearlogo>
+		<screenshot></screenshot>
+	</assets>
+	</extension>
+</addon>
+
 <addon id="script.module.html2text"
        name="html2text"
        version="2020.1.16+matrix.2"
@@ -2329,6 +2367,31 @@ AMF3, the default serialization for ActionScript 3.0, provides various advantage
 +2020.08.09
 - Update to latest upstream commit
 - Futures module is not set to optional (on Kodi 19 it is not imported)</news>
+  </extension>
+</addon>
+
+<addon id="script.module.trakt"
+       name="trakt.py"
+       version="4.4.0+matrix.1"
+       provider-name="Dean Gardiner, Razzeee">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests" version="2.16.1"/>
+    <import addon="script.module.six" version="1.10.0"/>
+    <import addon="script.module.arrow" version="1.0.3"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Python interface for the trakt.tv API</summary>
+    <description lang="en_GB">Packed for Kodi from https://github.com/fuzeman/trakt.py</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <website>https://github.com/fuzeman/trakt.py</website>
+    <source>https://github.com/Razzeee/script.module.trakt</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
   </extension>
 </addon>
 
