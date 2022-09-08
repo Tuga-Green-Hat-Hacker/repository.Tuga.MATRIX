@@ -926,6 +926,29 @@ Added support for Kodi v19 (Matrix)
     </extension>
 </addon>
 
+<addon id="script.kodi.loguploader" name="Kodi Logfile Uploader" version="1.0.4" provider-name="Team Kodi">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.pyqrcode" version="1.2.1+matrix.1"/>
+		<import addon="script.module.requests" version="2.22.0+matrix.1"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Uploads your kodi.log file.</summary>
+		<description lang="en_GB">Uploads your kodi.log file and returns an url you can post on http://forum.kodi.tv/</description>
+		<platform>all</platform>
+		<license>GPL-2.0-only</license>
+		<forum>https://forum.kodi.tv/showthread.php?tid=288153</forum>
+		<source>https://gitlab.com/ronie/script.kodi.loguploader/</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+		<news>- allow 2MB uploads</news>
+	</extension>
+</addon>
+
 <addon id="script.logviewer" name="Log Viewer for Kodi" provider-name="i96751414" version="2.1.4+matrix.1">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
@@ -1747,6 +1770,30 @@ v8.4.1 (2017-11-28)
     </extension>
 </addon>
 
+<addon id="script.module.pyamf"
+       name="PyAMF"
+       version="0.8.10+matrix.4"
+       provider-name="The Py3AMF Project">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.defusedxml" version="0.6.0+matrix.1"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">PyAMF provides Action Message Format (AMF) support for Python that is compatible with the Adobe Flash Player.</summary>
+    <description lang="en_GB">The Adobe Integrated Runtime and Adobe Flash Player use AMF to communicate between an application and a remote server. AMF encodes remote procedure calls (RPC) into a compact binary representation that can be transferred over HTTP/HTTPS or the RTMP/RTMPS protocol. Objects and data values are serialized into this binary format, which increases performance, allowing applications to load data up to 10 times faster than with text-based formats such as XML or SOAP.
+AMF3, the default serialization for ActionScript 3.0, provides various advantages over AMF0, which is used for ActionScript 1.0 and 2.0. AMF3 sends data over the network more efficiently than AMF0. AMF3 supports sending int and uint objects as integers and supports data types that are available only in ActionScript 3.0, such as ByteArray, ArrayCollection, ObjectProxy and IExternalizable.</description>
+    <license>MIT</license>
+    <platform>all</platform>
+	  <website>https://pypi.org/project/Py3AMF/</website>
+	  <source>https://github.com/StdCarrot/Py3AMF</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="script.module.pyjsparser" name="pyjsparser" version="3.0.0" provider-name="Addons4Kodi">
   <requires>
     <!-- <import addon="xbmc.python" version="3.0.0" /> -->
@@ -1918,6 +1965,22 @@ v8.4.1 (2017-11-28)
   </extension>
 </addon>
 
+<addon id="script.module.qhue" name="qhue" version="2.0.1" provider-name="Quentin Stafford-Fraser">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib"/>
+	<extension point="xbmc.addon.metadata">
+		<license>MIT</license>
+	    <summary lang="en_GB">A very lightweight Python wrapper to the Philips Hue API</summary>
+	    <description lang="en_GB">A very lightweight Python wrapper to the Philips Hue API</description>
+	    <platform>all</platform>
+	    <forum>https://forum.kodi.tv/showthread.php?tid=170715</forum>
+	    <website>https://github.com/quentinsf/qhue</website>
+	    <source>https://github.com/quentinsf/qhue</source>
+	</extension>
+</addon>
+
 <addon id="script.module.qrcode"
        name="qrcode"
        version="6.1.0+matrix.3"
@@ -2087,6 +2150,27 @@ v8.4.1 (2017-11-28)
   </extension>
 </addon>
 
+<addon id="script.module.simpleplugin3"
+   name="SimplePlugin 3"
+   version="3.0.6+matrix.1"
+   provider-name="Roman V.M.; vl.maksime">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.future" version="0.16.0.4"/>
+  </requires>
+  <extension point="xbmc.python.module" library="libs" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en_GB">SimplePlugin micro-framework</summary>
+    <description lang="en_GB">SimplePlugin micro-framework that simplifies Kodi content plugin programming.</description>
+    <license>GPL-3.0-only</license>
+    <forum></forum>
+    <website>http://vlmaksime.github.io/script.module.simpleplugin/</website>
+    <email>vl.maksime@gmail.com</email>
+    <source>https://github.com/vlmaksime/script.module.simpleplugin</source>
+  </extension>
+</addon>
+
 <addon id="script.module.six"
        name="six"
        version="1.15.0+matrix.1"
@@ -2170,6 +2254,29 @@ v8.4.1 (2017-11-28)
 	</extension>
 </addon>
 
+<addon id="script.module.srgssr" name="SRG SSR" version="2.2.0" provider-name="Alexander Seiler">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.inputstreamhelper" version="0.5.10"/>
+    <import addon="script.module.simplecache" version="2.0.2"/>
+    <import addon="script.module.requests" version="2.22.0"/>
+    <import addon="script.module.youtube_channels" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Access the SRG SSR media libraries.</summary>
+    <summary lang="de_DE">Zugriff auf die Mediatheken von SRG SSR.</summary>
+    <description lang="en_GB">This addon allows a plugin to use the media libraries of SRG SSR.</description>
+    <description lang="de_DE">Dieses Addon erlaubt Plugins den Zugriff auf die Mediatheken von SRG SSR.</description>
+    <platform>all</platform>
+    <license>GPL-3.0-or-later</license>
+    <source>https://github.com/goggle/script.module.srgssr</source>
+    <assets>
+        <icon>resources/icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="script.module.streamlink" name="Streamlink Library" version="2.1.1+matrix" provider-name="jairox">
   <requires>
 	  <import addon="xbmc.python" version="3.0.0"/>
@@ -2211,6 +2318,35 @@ v8.4.1 (2017-11-28)
     <assets>
       <icon>resources/icon.png</icon>
     </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.streamlink.base" name="Streamlink Library" version="2020.09.07.1" provider-name="Streamlink Devs, Twilight0">
+  <requires>
+      <!--<import addon="xbmc.python" version="2.26.0"/>-->
+      <import addon="script.module.requests" version="2.12.4"/>
+      <import addon="script.module.futures" version="0.0.0.1"/>
+      <import addon="script.module.pycryptodome" />
+  </requires>
+  <extension point="xbmc.python.module" library="resources/lib/"/>
+  <extension point="xbmc.addon.metadata">
+      <summary>Streamlink Library for Kodi</summary>
+      <description>Streamlink Library for Kodi. It is a collection of plugins to help resolve web page urls into streamable links. Known issue: Does not work on Xbox, specifically throws exception when trying to import something from ctypes module.</description>
+      <platform>all</platform>
+      <license>Simplified BSD</license>
+      <source>https://github.com/Twilight0/script.module.streamlink.base/</source>
+      <language>en</language>
+      <assets>
+          <icon>icon.png</icon>
+      </assets>
+      <news>+2020.09.07.1
+- Update to latest upstream commit
+- Remove on demand installation of futures module
+- Add dummy futures module for Kodi 19
+
++2020.08.09
+- Update to latest upstream commit
+- Futures module is not set to optional (on Kodi 19 it is not imported)</news>
   </extension>
 </addon>
 
