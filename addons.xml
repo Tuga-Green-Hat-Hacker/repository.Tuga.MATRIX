@@ -751,13 +751,12 @@ v3.0.0
   </extension>
 </addon>
 
-<addon id="plugin.video.rtpplay" name="RTP Play" version="5.0.14+matrix.1" provider-name="enen92, guipenedo">
+<addon id="plugin.video.rtpplay" name="RTP Play" version="6.0.3" provider-name="enen92, guipenedo">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.routing" version="0.2.0"/>
         <import addon="script.module.requests" version="2.12.4"/>
         <import addon="script.module.inputstreamhelper" version="0.4.2"/>
-        <import addon="script.module.beautifulsoup4" version="4.6.2"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="main.py">
         <provides>video</provides>
@@ -775,8 +774,9 @@ v3.0.0
         <email>enen92@kodi.tv</email>
         <source>https://github.com/enen92/plugin.video.rtpplay</source>
         <news>
-            Version 5.0.14
-                - Minor version fix (py2)
+            Version 6.0.3 (15/08/2022)
+                - Add support for inputstream.adaptive
+                - Minor fixes
         </news>
         <disclaimer lang="en_GB">The plugin is unofficial and not endorsed by RTP. Expect it to break. </disclaimer>
         <disclaimer lang="pt_PT">Este plugin nÃ£o Ã© oficial nem desenvolvido pela RTP. </disclaimer>
@@ -1376,44 +1376,6 @@ v8.4.1 (2017-11-28)
     <website>https://developers.google.com/api-client-library/python/start/installation</website>
     <source>https://github.com/google/google-api-python-client</source>
   </extension>
-</addon>
-
-<addon id="script.module.hls.cache"
-		name="[COLOR blue]HLS-CACHE[/COLOR]"
-		version="1.1.1"
-		provider-name="Loki1979">
-	<requires>
-        <import addon="xbmc.python" version="3.0.0" targetversion="3.0.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.python.module" library="resources/lib"/>
-	<extension point="xbmc.webinterface"/>
-	<extension point="xbmc.addon.metadata">
-	<summary>Created by loki1979</summary>
-	<description>
-1.) import addon="script.module.hls.cache"
-2.) import hls
-3.) hls.cache_loader(m3u8_url,m3u8_headers={},segment_headers={})
-	</description>
-	<disclaimer></disclaimer>
-	<language></language>
-	<platform>all</platform>
-	<license></license>
-	<forum></forum>
-	<website></website>
-	<email></email>
-	<source></source>
-	<news></news>
-	<assets>
-		<icon>resources/icon.png</icon>
-		<fanart>resources/fanart.jpg</fanart>
-		<banner></banner>
-		<clearlogo></clearlogo>
-		<screenshot></screenshot>
-	</assets>
-	</extension>
 </addon>
 
 <addon id="script.module.html2text"
