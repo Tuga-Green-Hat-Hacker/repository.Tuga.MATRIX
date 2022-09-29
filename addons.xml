@@ -1135,47 +1135,37 @@ Added support for Kodi v19 (Matrix)
   </extension>
 </addon>
 
-<addon id="script.module.certifi"
-       name="certifi"
-       version="2019.11.28+matrix.1"
-       provider-name="Kenneth Reitz">
+<addon id="script.module.certifi" name="certifi" version="2022.5.18+matrix.1" provider-name="Certifi">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
+  <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">Python package for providing Mozilla's CA Bundle.</summary>
     <description lang="en_GB">Certifi is a carefully curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. It has been extracted from the Requests project.</description>
     <license>MPL-2.0</license>
-    <website>https://certifi.io</website>
+    <website>https://github.com/certifi/python-certifi</website>
     <source>https://github.com/certifi/python-certifi</source>
-    <email>freso.dk AT gmail.com</email>
     <assets>
       <icon>resources/icon.png</icon>
     </assets>
   </extension>
 </addon>
 
-<addon id="script.module.chardet"
-       name="chardet"
-       version="3.0.4+matrix.3"
-       provider-name="Dan Blanchard">
+<addon id="script.module.chardet" name="chardet" version="4.0.0+matrix.1" provider-name="Character Encoding Detector">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
+  <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Universal encoding detector</summary>
-    <description lang="en_GB">Packed for Kodi from https://github.com/chardet/chardet</description>
-    <license>LGPL</license>
+    <summary lang="en_GB">The Universal Character Encoding Detector</summary>
+    <description lang="en_GB">The Universal Character Encoding Detector</description>
+    <license>LGPL-2.1</license>
     <platform>all</platform>
     <website>https://chardet.readthedocs.io/en/latest/</website>
-    <source>https://github.com/Freso/script.module.chardet</source>
-    <email>beenje AT gmail.com</email>
+    <source>https://github.com/chardet/chardet</source>
     <assets>
-      <icon>icon.png</icon>
+      <icon>resources/icon.png</icon>
     </assets>
   </extension>
 </addon>
@@ -1456,25 +1446,18 @@ v8.4.1 (2017-11-28)
    </extension>
 </addon>
 
-<addon id="script.module.idna"
-       name="idna"
-       version="2.8.1+matrix.1"
-       provider-name="Kim Davies">
+<addon id="script.module.idna" name="idna" version="3.3.0+matrix.1" provider-name="Kim Davies">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
+  <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en_GB">Internationalized Domain Names for Python</summary>
-    <description lang="en_GB">Packed for KODI from https://github.com/kjd/idna</description>
+    <description lang="en_GB">Internationalized Domain Names for Python</description>
+    <license>BSD-3-Clause</license>
     <platform>all</platform>
-    <language></language>
-    <license>BSD</license>
-    <forum></forum>
     <website>https://github.com/kjd/idna</website>
-    <source>https://github.com/Freso/script.module.idna</source>
-    <email>freso.dk AT gmail.com</email>
+    <source>https://github.com/kjd/idna</source>
     <assets>
       <icon>resources/icon.png</icon>
     </assets>
@@ -1750,6 +1733,23 @@ v8.4.1 (2017-11-28)
 	</extension>
 </addon>
 
+<addon id="script.module.pil"
+       name="Python Image Library"
+       version="5.1.0"
+       provider-name="PythonWare">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="script.module.pvr.artwork" name="PVR Artwork Module" version="2.2.3" provider-name="PvD">
     <requires>
 	    <import addon="xbmc.python" version="3.0.0"/>
@@ -1800,6 +1800,22 @@ AMF3, the default serialization for ActionScript 3.0, provides various advantage
     <platform>all</platform>
 	  <website>https://pypi.org/project/Py3AMF/</website>
 	  <source>https://github.com/StdCarrot/Py3AMF</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+
+<addon id="script.module.pycryptodome"
+       name="Python Crypto Library"
+       version="3.4.3"
+       provider-name="Legrandin">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
     <assets>
       <icon>icon.png</icon>
     </assets>
@@ -2015,29 +2031,22 @@ AMF3, the default serialization for ActionScript 3.0, provides various advantage
   </extension>
 </addon>
 
-<addon id="script.module.requests"
-       name="requests"
-       version="2.22.0+matrix.1"
-       provider-name="kennethreitz">
+<addon id="script.module.requests" name="requests" version="2.27.1+matrix.1" provider-name="Python Software Foundation">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
-    <import addon="script.module.certifi" version="2019.11.28+matrix.1"/>
-    <import addon="script.module.chardet" version="3.0.4+matrix.1"/>
-    <import addon="script.module.idna" version="2.8.1+matrix.1"/>
-    <import addon="script.module.urllib3" version="1.25.8+matrix.1"/>
+    <import addon="script.module.certifi" version="2022.5.18+matrix.1"/>
+    <import addon="script.module.chardet" version="4.0.0+matrix.1"/>
+    <import addon="script.module.idna" version="3.3.0+matrix.1"/>
+    <import addon="script.module.urllib3" version="1.26.9+matrix.1"/>
   </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
+  <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Python HTTP for Humans</summary>
-    <description lang="en_GB">Packed for KODI from https://pypi.org/project/requests/</description>
+    <summary lang="en_GB">Requests is an elegant and simple HTTP library for Python, built for human beings.</summary>
+    <description lang="en_GB">Requests is an elegant and simple HTTP library for Python, built for human beings.</description>
+    <license>Apache-2.0</license>
     <platform>all</platform>
-    <language></language>
-    <license>Apache2</license>
-    <forum></forum>
-    <website>http://python-requests.org</website>
-    <source>https://github.com/Freso/script.module.requests</source>
-    <email>freso.dk AT gmail.com</email>
+    <website>https://requests.readthedocs.io/</website>
+    <source>https://github.com/psf/requests</source>
     <assets>
       <icon>resources/icon.png</icon>
     </assets>
@@ -2457,22 +2466,18 @@ AMF3, the default serialization for ActionScript 3.0, provides various advantage
 	</extension>
 </addon>
 
-<addon id="script.module.urllib3"
-       name="urllib3"
-       version="1.25.8+matrix.1"
-       provider-name="Andrey Petrov">
+<addon id="script.module.urllib3" name="urllib3" version="1.26.9+matrix.1" provider-name="urllib3">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
+  <extension point="xbmc.python.module" library="lib" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">HTTP library with thread-safe connection pooling, file post, and more.</summary>
-    <description lang="en_GB">Packed for KODI from https://pypi.org/project/urllib3/</description>
+    <summary lang="en_GB">urllib3 is a powerful, user-friendly HTTP client for Python</summary>
+    <description lang="en_GB">urllib3 is a powerful, user-friendly HTTP client for Python. Much of the Python ecosystem already uses urllib3 and you should too. urllib3 brings many critical features that are missing from the Python standard libraries</description>
     <license>MIT</license>
+    <platform>all</platform>
     <website>https://urllib3.readthedocs.io/en/latest/</website>
     <source>https://github.com/urllib3/urllib3</source>
-    <email>freso.dk AT gmail.com</email>
     <assets>
       <icon>resources/icon.png</icon>
     </assets>
@@ -2665,6 +2670,50 @@ v1.0.0 - schumi2004,CaTz, Mafarricos
   </extension>
 </addon>
 
+<addon id="xbmc.addon" version="19.1.0" provider-name="Team XBMC">
+  <backwards-compatibility abi="12.0"/>
+  <requires>
+    <import addon="xbmc.core" version="0.1.0"/>
+  </requires>
+  <extension-point id="metadata" schema="metadata.xsd"/>
+  <extension-point id="repository" schema="repository.xsd"/>
+</addon>
+
+<addon id="xbmc.core" version="0.1.0" provider-name="Team Kodi">
+  <backwards-compatibility abi="0.1"/>
+  <requires>
+    <c-pluff version="0.1"/>
+  </requires>
+</addon>
+
+<addon id="xbmc.gui" version="5.15.0" provider-name="Team Kodi">
+  <backwards-compatibility abi="5.15.0"/>
+  <requires>
+    <import addon="xbmc.core" version="0.1.0"/>
+  </requires>
+  <extension-point id="skin" schema="skin.xsd"/>
+</addon>
+
+<addon id="xbmc.json" version="12.4.0" provider-name="Team XBMC">
+  <backwards-compatibility abi="6.0.0"/>
+  <requires>
+    <import addon="xbmc.core" version="0.1.0"/>
+  </requires>
+</addon>
+
+<addon id="xbmc.metadata" version="2.1.0" provider-name="Team Kodi">
+  <backwards-compatibility abi="1.0"/>
+  <requires>
+    <import addon="xbmc.core" version="0.1.0"/>
+  </requires>
+  <extension-point id="scraper.albums" schema="scraper.xsd"/>
+  <extension-point id="scraper.artists" schema="scraper.xsd"/>
+  <extension-point id="scraper.movies" schema="scraper.xsd"/>
+  <extension-point id="scraper.musicvideos" schema="scraper.xsd"/>
+  <extension-point id="scraper.tvshows" schema="scraper.xsd"/>
+  <extension-point id="scraper.library" schema="scraper.xsd"/>
+</addon>
+
 <addon id="xbmc.python" version="3.0.0" provider-name="Team Kodi">
   <backwards-compatibility abi="3.0.0"/>
   <requires>
@@ -2693,5 +2742,13 @@ v1.0.0 - schumi2004,CaTz, Mafarricos
   <extension-point id="screensaver" schema="script.xsd"/>
   <extension-point id="plugin" schema="pluginsource.xsd"/>
   <extension-point id="context.item" schema="contextitem.xsd"/>
+</addon>
+
+<addon id="xbmc.webinterface" version="1.0.0" provider-name="Team Kodi">
+  <backwards-compatibility abi="1.0.0"/>
+  <requires>
+    <import addon="xbmc.core" version="0.1.0"/>
+  </requires>
+  <extension-point id="webinterface" schema="webinterface.xsd"/>
 </addon>
 </addons>
